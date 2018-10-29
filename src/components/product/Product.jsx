@@ -4,6 +4,8 @@ import './Product.scss';
 import ProductUmrahHaji from "./products/UmrahHaji";
 // import ProductUmrahHajiFasilitas from "./products/umrah_haji/Haji/fasilitas/Fasilitas";
 import ProductTour from "./products/PaketTour";
+import TourList from "./products/paket_tour/TourList";
+import TourDetails from "./products/paket_tour/TourDetails";
 import ProductPassportVisa from "./products/PassportVisa";
 import ProductGathCompany from "./products/GatheringCompany";
 import ProductTiket from "./products/TiketPesawatKereta";
@@ -17,6 +19,8 @@ export default class Product extends Component {
                 <Route path={`${path}/paket_umrah_haji`} component={ProductUmrahHaji}/>
                 {/* <Route path={`${path}/haji-fac/madinah`} component={ProductUmrahHajiFasilitas}/> */}
                 <Route exact path={`${path}/paket_tour`} component={ProductTour}/>
+                <Route exact path={`${path}/paket_tour/:slug`} component={TourList}/>
+                <Route exact path={`${path}/tour_detail/:slug`} component={TourDetails}/>
                 <Route exact path={`${path}/paket_visa`} component={ProductPassportVisa}/>
                 <Route exact path={`${path}/paket_gathering`} component={ProductGathCompany}/>
                 <Route exact path={`${path}/paket_tiket`} component={ProductTiket}/>

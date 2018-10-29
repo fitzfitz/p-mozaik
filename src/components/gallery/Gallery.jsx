@@ -41,7 +41,7 @@ export default class Gallery extends Component {
                     <TabContent>
                         <Switch>
                             <Redirect from={path} to={`${path}/${this.state.firstSlug}`} exact/>
-                            <Route path={`${path}/:idCategory`} exact component={GalleryDetail}/>
+                            <Route path={`${path}/:idCategory`}  component={GalleryDetail}/>
                         </Switch>
                     </TabContent>
                 </div>

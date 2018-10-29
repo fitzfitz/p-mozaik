@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
-import { Card, CardImg, CardText, CardBody, CardTitle } from 'reactstrap';
+import { Card, CardImg, CardText, CardBody } from 'reactstrap';
+import { NavLink } from 'react-router-dom'
 import ProductCarousel from '../ProductCarousel';
 
 export default class PaketTour extends Component {
     constructor(props) {
         super(props)
         this.state = {
-            loaded: true,
+            loaded: false,
             carousel: [{
                 id: 1,
                 src: '/assets/product/slider/tour/1. MT Eropa - polos.jpg',
@@ -31,11 +32,30 @@ export default class PaketTour extends Component {
                 title: 'PAKET MUSLIM TOUR',
                 descTop: null,
                 descMid: 'DOMESTIK'
-            }]
+            }],
+            data: []
         }
+    }
+    componentWillMount() {
+        fetch('/data/data_paket_tour.json')
+            .then(res => res.json())
+            .then(resp => this.setState({data: resp, loaded: true}))
     }
     render() {
         const { path } = this.props.match;
+        const list = this.state.data.map((item, key) => {
+            return (
+                <NavLink key={key} style={{display: 'flex'}} className="col-sm-3" to={`${path}/${item.slug}`}>
+                    <Card>
+                        <CardImg top width="100%" src={item.image} alt={item.title} />
+                        <CardBody className="p-2">
+                            <h6 className="card-title">{item.title}</h6>
+                            <CardText>{item.description}</CardText>
+                        </CardBody>
+                    </Card>
+                </NavLink>
+            )
+        });
         return (
             <div className="content-wrap text-center">
                 <div className="container-fluid">
@@ -47,33 +67,7 @@ export default class PaketTour extends Component {
                 </div>
                 <div className="container pt-5 pb-5">
                     <div className="row">
-                        <div className="col-sm-4">
-                            <Card>
-                                <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" alt="Card image cap" />
-                                <CardBody>
-                                    <CardTitle>Card title</CardTitle>
-                                    <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
-                                </CardBody>
-                            </Card>
-                        </div>
-                        <div className="col-sm-4">
-                            <Card>
-                                <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" alt="Card image cap" />
-                                <CardBody>
-                                    <CardTitle>Card title</CardTitle>
-                                    <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
-                                </CardBody>
-                            </Card>
-                        </div>
-                        <div className="col-sm-4">
-                            <Card>
-                                <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" alt="Card image cap" />
-                                <CardBody>
-                                    <CardTitle>Card title</CardTitle>
-                                    <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
-                                </CardBody>
-                            </Card>
-                        </div>
+                        {list}
                     </div>
                 </div>
             </div>
