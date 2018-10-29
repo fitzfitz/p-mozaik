@@ -1,0 +1,334 @@
+{
+    "Home": {
+        "carousel" : {
+            "properties": {
+                "title": ""
+            },
+            "items": [{
+                "src": "/assets/home-slider/1. Tagline umrah mozaik - polos.jpg",
+                "title": null,
+                "descTop": null,
+                "descMid": null
+            }, {
+                "src": "/assets/home-slider/2. Paket muslim tour - polos.jpg",
+                "title": "PAKET MUSLIM TOUR",
+                "descTop": null,
+                "descMid": null
+            }, {
+                "src": "/assets/home-slider/3. Visa - polos.jpg",
+                "title": "PASSPORT & VISA",
+                "descTop": null,
+                "descMid": "Kami melayani jasa rekomendasi passport dan pembuatan Visa untuk ke luar negri."
+            }, {
+                "src": "/assets/home-slider/4. Gathering company - polos.jpg",
+                "title": "GETHERING COMPANY",
+                "descTop": null,
+                "descMid": "Kami memiliki layanan perjalanan umrah, domestik tour dan muslim tour dalam bentuk grup dalam sistem kerjasama dengan perusahaan"
+            }, {
+                "src": "/assets/home-slider/5. Tiket - polos.jpg",
+                "title": "TIKET PESAWAT & KERETA",
+                "descTop": null,
+                "descMid": "Kami memiliki layanan pemesanan tiket pesawat maupun kereta api dan beberapa hotel diberbagai destinasi yang berbeda."
+            }]
+        },
+        "services": {
+            "properties": {
+                "title": "Produk Layanan Kami"
+            },
+            "items": [{
+                "slug": "paket_umrah_haji",
+                "title": "PAKET UMRAH DAN HAJI",
+                "image": "/assets/home/service/umrah-dan-haji.jpg"
+            }, {
+                "slug": "paket_tour",
+                "title": "PAKET TOUR",
+                "image": "/assets/home/service/tour.jpg"
+            }, {
+                "slug": "paket_visa",
+                "title": "PASSPORT DAN VISA",
+                "image": "/assets/home/service/Passport.jpg"
+            }, {
+                "slug": "paket_gathering",
+                "title": "GATHERING COMPANY",
+                "image": "/assets/home/service/corporate-sponsorship1.jpg"
+            }, {
+                "slug": "paket_tiket",
+                "title": "TIKET PESAWAT DAN KERETA",
+                "image": "/assets/home/service/Seat-reservation-Ticket-615-2.jpg"
+            }]
+        },
+        "advantage": {
+            "properties": {
+                "title": "Bedanya Kami Dengan Yang Lain"
+            },
+            "items": []
+        },
+        "video": {
+            "properties": {
+                "title": "Channel Youtube",
+                "source": "https://www.youtube.com/embed/VxMQHifEdJY?rel=0",
+                "uri": "https://www.youtube.com/channel/UCjYR23IDGZC4CgxnoyOQIAg/videos"
+            },
+            "items": []
+        },
+        "gallery": {
+            "properties": {
+                "title": "Galeri"
+            },
+            "items": [{
+                "slug": "umrah",
+                "title": "Perjalanan Umrah dan Haji",
+                "image": "/assets/home/gallery/umrah-dan-haji.jpg"
+            }, {
+                "slug": "tour",
+                "title": "Perjalanan Muslim Tour",
+                "image": "/assets/home/gallery/muslim-tour.jpg"
+            }, {
+                "slug": "domestik_tour",
+                "title": "Perjalanan Domestik Tour",
+                "image": "/assets/home/gallery/domestik-tour.jpg"
+            }]
+        },
+        "testimoni": {
+            "properties": {
+                "title": "Testimoni"
+            },
+            "items": [{
+                "name": "Subhan Hasanuddin",                
+                "title": "Pelayanan Masyarakat",
+                "image": "/assets/home/testimoni/subhan-hasanudin.jpeg",
+                "comment": "Alhamdulillah Mozaik membantu saya melakukan perjalanan umrah bersama keluarga. Pelayanan berkualitas dan memuaskan bagi saya."
+            }, {
+                "name": "Syarief Hanafi",                
+                "title": "Project Manager",
+                "image": "/assets/home/testimoni/syarief-hanafi.jpeg",
+                "comment": "Melakukan perjalanan umrah bersama Mozaik, membuat ibadah umrah saya terasa memuaskan karena adanya program ta'alim dipelataran masjid madinah dan makkah dan muttawifnya dapat membimbing kami dengan sabar."
+            }, {
+                "name": "Fitri Zeemah",                
+                "title": "Accounting",
+                "image": "/assets/home/testimoni/fitri-zeemah.jpeg",
+                "comment": "Mengikuti program umrah yang ada di Mozaik, pelayanannya secara fasilitas, program kegiatan dan bimbingan ibadah selama umrah membuat saya dan keluarga dapat menjalaninya dengan puas dan penuh dengan rasa bersyukur."
+            }]
+        },
+        "partner": {
+            "properties": {
+                "title": "Partner Kami"
+            },
+            "items": [{
+                "image": "/assets/partner/saudia-airlines-logo-png-in-2012-saudi-arabian-airlines-was-reverted-back-the-saudia-name-to-celebrate-the-airline-s-entry-to-the-skyteam-aliance.jpg"
+            }, {
+                "image": "/assets/partner/Qatar_Airways_putih.jpg"
+            }, {
+                "image": "/assets/partner/garuda indonesia.jpg"
+            }, {
+                "image": "/assets/partner/01-1024x439.jpg"
+            }, {
+                "image": "/assets/partner/585e9ddbcb11b227491c34fc.png"
+            }, {
+                "image": "/assets/partner/etihad-airways-png-etihad-airways-951.png"
+            }, {
+                "image": "/assets/partner/oman-air-logo-EBA5AADC48-seeklogo.com.png"
+            }, {
+                "image": "/assets/partner/IATA.jpg"
+            }, {
+                "image": "/assets/partner/WhatsApp Image 2018-07-09 at 19.40.40.jpeg"
+            }]
+        }
+    },
+
+    "Gallery": [{
+        "id_category": "umrah",
+        "title": "Perjalanan Umrah",
+        "data": [{
+            "caption": "Rombongan Semarang 17 Juni 2017",
+            "src": "/assets/home-slider/3. Visa - polos.jpg",
+            "srcSet": [
+                "/assets/gallery/Umrah/3 Juni 2018 Pusat (Ust. Ibsu)/WhatsApp Image 2018-06-03 at 13.12.42.jpeg",
+                "/assets/gallery/Umrah/3 Juni 2018 Pusat (Ust. Ibsu)/WhatsApp Image 2018-06-06 at 18.33.49.jpeg",
+                "/assets/gallery/Umrah/3 Juni 2018 Pusat (Ust. Ibsu)/WhatsApp Image 2018-06-06 at 18.59.54.jpeg",
+                "/assets/gallery/Umrah/3 Juni 2018 Pusat (Ust. Ibsu)/WhatsApp Image 2018-06-06 at 18.59.52.jpeg",
+                "/assets/gallery/Umrah/3 Juni 2018 Pusat (Ust. Ibsu)/WhatsApp Image 2018-06-06 at 13.21.11.jpeg"
+            ]
+        }, {
+            "caption": "Rombongan Semarang 17 Juni 2017",
+            "src": "/assets/home-slider/3. Visa - polos.jpg",
+            "srcSet": [
+                "/assets/home-slider/3. Visa - polos.jpg",
+                "/assets/home-slider/3. Visa - polos.jpg",
+                "/assets/home-slider/3. Visa - polos.jpg",
+                "/assets/home-slider/3. Visa - polos.jpg",
+                "/assets/home-slider/3. Visa - polos.jpg"
+            ]
+        }, {
+            "caption": "Rombongan Semarang 17 Juni 2017",
+            "src": "/assets/home-slider/3. Visa - polos.jpg",
+            "srcSet": [
+                "/assets/home-slider/3. Visa - polos.jpg",
+                "/assets/home-slider/3. Visa - polos.jpg",
+                "/assets/home-slider/3. Visa - polos.jpg",
+                "/assets/home-slider/3. Visa - polos.jpg",
+                "/assets/home-slider/3. Visa - polos.jpg"
+            ]
+        }]
+    }, {
+        "id_category": "tour",
+        "title": "Muslim Tour",
+        "data": [{
+            "caption": "Rombongan Semarang 17 Juni 2017",
+            "src": "/assets/home-slider/3. Visa - polos.jpg",
+            "srcSet": [
+                "/assets/home-slider/3. Visa - polos.jpg",
+                "/assets/home-slider/3. Visa - polos.jpg",
+                "/assets/home-slider/3. Visa - polos.jpg",
+                "/assets/home-slider/3. Visa - polos.jpg",
+                "/assets/home-slider/3. Visa - polos.jpg"
+            ]
+        }, {
+            "caption": "Rombongan Semarang 17 Juni 2017",
+            "src": "/assets/home-slider/3. Visa - polos.jpg",
+            "srcSet": [
+                "/assets/home-slider/3. Visa - polos.jpg",
+                "/assets/home-slider/3. Visa - polos.jpg",
+                "/assets/home-slider/3. Visa - polos.jpg",
+                "/assets/home-slider/3. Visa - polos.jpg",
+                "/assets/home-slider/3. Visa - polos.jpg"
+            ]
+        }, {
+            "caption": "Rombongan Semarang 17 Juni 2017",
+            "src": "/assets/home-slider/3. Visa - polos.jpg",
+            "srcSet": [
+                "/assets/home-slider/3. Visa - polos.jpg",
+                "/assets/home-slider/3. Visa - polos.jpg",
+                "/assets/home-slider/3. Visa - polos.jpg",
+                "/assets/home-slider/3. Visa - polos.jpg",
+                "/assets/home-slider/3. Visa - polos.jpg"
+            ]
+        }, {
+            "caption": "Rombongan Semarang 17 Juni 2017",
+            "src": "/assets/home-slider/3. Visa - polos.jpg",
+            "srcSet": [
+                "/assets/home-slider/3. Visa - polos.jpg",
+                "/assets/home-slider/3. Visa - polos.jpg",
+                "/assets/home-slider/3. Visa - polos.jpg",
+                "/assets/home-slider/3. Visa - polos.jpg",
+                "/assets/home-slider/3. Visa - polos.jpg"
+            ]
+        }, {
+            "caption": "Rombongan Semarang 17 Juni 2017",
+            "src": "/assets/home-slider/3. Visa - polos.jpg",
+            "srcSet": [
+                "/assets/home-slider/3. Visa - polos.jpg",
+                "/assets/home-slider/3. Visa - polos.jpg",
+                "/assets/home-slider/3. Visa - polos.jpg",
+                "/assets/home-slider/3. Visa - polos.jpg",
+                "/assets/home-slider/3. Visa - polos.jpg"
+            ]
+        }, {
+            "caption": "Rombongan Semarang 17 Juni 2017",
+            "src": "/assets/home-slider/3. Visa - polos.jpg",
+            "srcSet": [
+                "/assets/home-slider/3. Visa - polos.jpg",
+                "/assets/home-slider/3. Visa - polos.jpg",
+                "/assets/home-slider/3. Visa - polos.jpg",
+                "/assets/home-slider/3. Visa - polos.jpg",
+                "/assets/home-slider/3. Visa - polos.jpg"
+            ]
+        }]
+    }, {
+        "id_category": "domestik_tour",
+        "title": "Domestik Tour",
+        "data": [{
+            "caption": "Rombongan Semarang 17 Juni 2017",
+            "src": "/assets/home-slider/3. Visa - polos.jpg",
+            "srcSet": [
+                "/assets/home-slider/3. Visa - polos.jpg",
+                "/assets/home-slider/3. Visa - polos.jpg",
+                "/assets/home-slider/3. Visa - polos.jpg",
+                "/assets/home-slider/3. Visa - polos.jpg",
+                "/assets/home-slider/3. Visa - polos.jpg"
+            ]
+        }, {
+            "caption": "Rombongan Semarang 17 Juni 2017",
+            "src": "/assets/home-slider/3. Visa - polos.jpg",
+            "srcSet": [
+                "/assets/home-slider/3. Visa - polos.jpg",
+                "/assets/home-slider/3. Visa - polos.jpg",
+                "/assets/home-slider/3. Visa - polos.jpg",
+                "/assets/home-slider/3. Visa - polos.jpg",
+                "/assets/home-slider/3. Visa - polos.jpg"
+            ]
+        }, {
+            "caption": "Rombongan Semarang 17 Juni 2017",
+            "src": "/assets/home-slider/3. Visa - polos.jpg",
+            "srcSet": [
+                "/assets/home-slider/3. Visa - polos.jpg",
+                "/assets/home-slider/3. Visa - polos.jpg",
+                "/assets/home-slider/3. Visa - polos.jpg",
+                "/assets/home-slider/3. Visa - polos.jpg",
+                "/assets/home-slider/3. Visa - polos.jpg"
+            ]
+        }]
+    }],
+
+    "TourPackage": [{
+        "title": "Eropa Tour",
+        "slug": "eropa_tour",
+        "description": "Tersedia perjalanan ke Turki, Perancis, Jermal, Italia, Swiss dan Belanda",
+        "image": "",
+        "data": [{
+            "name": "Turki",
+            "description": "Istanbul - Cappadocia - Ankara",
+            "price": 18000000,
+            "time": "10H8N",
+            "image": "",
+            "detail": []
+        }, {
+            "name": "Belanda",
+            "description": "Amsterdam - Koninklijk Paleis - Van Oranga",
+            "price": 28000000,
+            "time": "8H6N",
+            "image": "",
+            "detail": []
+        }, {
+            "name": "Perancis",
+            "description": "Paris - Eiffel Tower - Manekken Pis",
+            "price": 30000000,
+            "time": "8H6N",
+            "image": "",
+            "detail": []
+        }]
+    }, {
+        "title": "Asia Tour",
+        "slug": "asia_tour",
+        "description": "Tersedia perjalanan ke Jepang, Cina, Korea Selatan, Malaysia, Bangkok, Singapura dan Brunei Darussalam",
+        "image": "",
+        "data": []
+    }, {
+        "title": "Timur Tengah Tour",
+        "slug": "timur_tengah_tour",
+        "description": "Tersedia perjalanan ke Dubai, Yordan, Mesir, Moroko dan Al-Aqsa",
+        "image": "",
+        "data": []
+    }, {
+        "title": "Domestik Tour",
+        "slug": "domestik_tour",
+        "description": "Tersedia perjalanan ke Bali, Bromo, Malang, Lombok, Labuan Bajo, Yogyakarta, Bandung dan Raja Ampat",
+        "image": "",
+        "data": []
+    }]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,16 @@
+.form-control {
+  height: auto;
+}
+#root {
+  >.App {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    // margin-bottom: 144.95px;
+    // footer {
+    //   position: fixed;
+    //   width: 100%;
+    //   bottom: 0;
+    // }
+  }
+}

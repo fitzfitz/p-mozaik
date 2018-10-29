@@ -1,0 +1,177 @@
+@font-face {
+  font-family:"Algeria";
+  src: url("./assets/fonts/algeria/ALGERIA.eot?") format("eot"),
+       url("./assets/fonts/algeria/ALGERIA.woff") format("woff"),
+       url("./assets/fonts/algeria/ALGERIA.ttf") format("truetype"),
+       url("./assets/fonts/algeria/ALGERIA.svg#Algeria") format("svg");
+  font-weight:normal;
+  font-style:normal;
+}
+
+body {
+  font-size: .77rem;
+  color: #787a7b;
+}
+body::-webkit-scrollbar {
+  appearance: none;
+  -webkit-appearance: none;
+}
+body::-webkit-scrollbar:vertical {
+  width: 7px;
+}
+body::-webkit-scrollbar:horizontal {
+  height: 7px;
+}
+body::-webkit-scrollbar-thumb {
+  border: 0;
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff;
+  background: #2c3280;
+  cursor: pointer;
+}
+article {
+  font-size: .87rem;
+}
+.caps {
+  text-transform: uppercase;
+}
+.big-title {
+  font-weight: bold;
+  font-size: 1.6rem;
+  color: #47525e;
+  text-align: center;
+  padding: 10px 10px;
+  border: 0;
+}
+a, .text-blue {
+  color: #2c3280;
+}
+.text-grey {
+  color: #47525e;
+}
+.text-greyish {
+  color: #5b6168;
+}
+.text-white {
+  color: #fff;
+}
+.bg-white {
+  background: #fff !important;
+}
+.bg-grey {
+  background: #f1f1f2 !important;
+}
+.bg-blue {
+  background: #2c3280 !important;
+}
+.bg-cloud {
+  background: #e5e9f2 !important;
+}
+.bg-yellow {
+  background: #fbcf07 !important;
+}
+.bg-red {
+  background: #e31e25 !important;
+}
+.no-border {
+  border: 0 !important;
+}
+.no-bg {
+  background: none;
+}
+.small-text {
+  font-size: 1em !important;
+}
+.content-wrap {
+  position: relative;
+  border-top: 2px solid #ededed;
+  flex: 1;
+  background: #fff;
+  z-index: 1;
+  &:after {
+    content: '';
+    position: fixed;
+    margin: auto;
+    top: 50%;
+    bottom: 50%;
+    left: 50%;
+    right: 50%;
+    background: #000;
+    transition: .5s all;
+  }
+  &.loading:after {
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    transition: .2s all;
+  }
+}
+
+.thumbnail-md-text {
+  background: none;
+  padding: 15px 15px;
+  border: none;
+  &:hover {
+    .card-wrap .card-body {
+      background: rgba(0,0,0,.5);
+    }
+  }
+  .card-wrap {
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 55%;
+    .card-body {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+      color: #fff;
+      font-weight: 600;
+      text-shadow: 2px 2px 5px rgba(0,0,0,.9);
+      transition: .3s all;
+      font-size: 1.2rem
+    }
+  }
+}
+
+.nav-pills .nav-link {
+  color: #fff;
+  background-color: #2c3280;
+  border-radius: 0;
+  font-size: 1.7em;
+  font-weight: 900;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  &.sec-style {
+    color: #8f8e92;
+    background-color: #ebebeb;
+    border-radius: 0;
+    font-size: 1em;
+    font-weight: 900;
+    padding: 0.6rem 0;
+    &.active, &:hover {
+      color: #797979;
+      background-color: #d1d1d1;
+    }
+  }
+  &.active, &:hover {
+    color: #797979;
+    background-color: #ebebeb;
+  }
+}
+
+
+
+
+.tab-content>.tab-pane {
+  padding: 3rem 0;
+}
+
+.border-left-resp {
+  border-right: 1px solid #e8e1e1;
+}
