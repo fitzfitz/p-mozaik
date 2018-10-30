@@ -9,60 +9,60 @@ export default class HajiFasilitas extends Component {
                     {/* <NavLink className="nav-item nav-link sec-style" to={`/product/haji-fac/madinah`}> */}
                         <CardGroup>
                             <Card>
-                                <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180" alt="Card image cap" />
+                                <div className="responsive-card-img-group" style={{backgroundImage: 'url("/assets/product/haji/madinah1.JPEG")'}}></div>
                             </Card>
                             <Card>
-                                <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180" alt="Card image cap" />
+                                <div className="responsive-card-img-group" style={{backgroundImage: 'url("/assets/product/haji/madinah2.jpg")'}}></div>
                             </Card>
                             <Card>
-                                <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180" alt="Card image cap" />
+                                <div className="responsive-card-img-group" style={{backgroundImage: 'url("/assets/product/haji/madinah3.JPEG")'}}></div>
                             </Card>
                         </CardGroup>
                         <CardBody style={{ display: 'block' }}>
                             <CardTitle>Madinnah</CardTitle>
-                            <CardText>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</CardText>
+                            <CardText>Royal Inn Al-Rawda Hotel *5 selama 3 malam dengan jarak 50m dari pelataran Masjidil Nabawi</CardText>
                         </CardBody>
                     {/* </NavLink> */}
                 </div>
                 <div className="ftz-card-group-one-body mb-5">
                     <CardGroup>
                         <Card>
-                            <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180" alt="Card image cap" />
+                            <div className="responsive-card-img-group" style={{backgroundImage: 'url("/assets/product/haji/makkah1.jpg")'}}></div>
                         </Card>
                         <Card>
-                            <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180" alt="Card image cap" />
+                            <div className="responsive-card-img-group" style={{backgroundImage: 'url("/assets/product/haji/makkah2.jpg")'}}></div>
                         </Card>
                         <Card>
-                            <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180" alt="Card image cap" />
+                            <div className="responsive-card-img-group" style={{backgroundImage: 'url("/assets/product/haji/makkah3.jpg")'}}></div>
                         </Card>
                     </CardGroup>
                     <CardBody style={{ display: 'block' }}>
                         <CardTitle>Makkah</CardTitle>
-                        <CardText>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</CardText>
+                        <CardText>Al Safwah Royale Orchid Hotel *5 selama 4 malam dengan jarak 50m dari pelataran Masjidil Haram</CardText>
                     </CardBody>
                 </div>
                 <div className="container-fluid">
                     <div className="row">
                     <div className="row">
                         <Card className="col-md-4 text-center text-white no-border">
-                            <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180" alt="Card image cap" />
+                            <CardImg top width="100%" src="/assets/product/haji/pesawat.jpg" alt="Card image cap" />
                             <CardBody className="bg-red" style={{ display: 'block' }}>
                                 <CardTitle>Pesawat</CardTitle>
-                                <CardText>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</CardText>
+                                <CardText>Saudia Airlines (Landing Jeddah)</CardText>
                             </CardBody>
                         </Card>
                         <Card className="col-md-4 text-center text-white no-border">
-                            <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180" alt="Card image cap" />
+                            <CardImg top width="100%" src="/assets/product/haji/bus.jpg" alt="Card image cap" />
                             <CardBody className="bg-red" style={{ display: 'block' }}>
                                 <CardTitle>Transportasi Darat</CardTitle>
-                                <CardText>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</CardText>
+                                <CardText>Bus AC Faruk Jamil Khoger</CardText>
                             </CardBody>
                         </Card>
                         <Card className="col-md-4 text-center text-white no-border">
-                            <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180" alt="Card image cap" />
+                            <CardImg top width="100%" src="/assets/product/haji/mina.jpg" alt="Card image cap" />
                             <CardBody className="bg-red" style={{ display: 'block' }}>
                                 <CardTitle>Mina-Arafah</CardTitle>
-                                <CardText>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</CardText>
+                                <CardText>Maktab VVIP 112</CardText>
                             </CardBody>
                         </Card>
                     </div>

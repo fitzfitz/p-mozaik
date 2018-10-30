@@ -59,7 +59,7 @@ export default class GalleryDetail extends Component {
         return (
             <div id="GalleryPerjalananUmrah" className="tab-pane fade in active show">
                 <h2 style={{ lineHeight: 2 }} className="font-weight-bold text-center mb-2 bg-yellow text-blue">{this.state.title}</h2>
-                <div className="row justify-content-center">
+                <div className="row">
                     {items}
                 </div>
                 {isOpen && (

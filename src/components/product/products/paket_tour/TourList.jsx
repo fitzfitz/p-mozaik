@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import { Card, CardImg, CardBody } from 'reactstrap';
+import { Card, CardBody } from 'reactstrap';
 import { NavLink } from 'react-router-dom';
+import LoadSpinner from '../../../other/LoadSpinner';
 
 export default class TourList extends Component {
     constructor(props) {
@@ -23,7 +24,8 @@ export default class TourList extends Component {
             return (
                 <NavLink key={key} className="col-sm-4" to={`../detail/${item.slug}`}>
                     <Card>
-                        <CardImg top width="100%" src={item.image} alt={item.title} />
+                        <div className="responsive-card-img-group" style={{backgroundImage: `url('${item.image}')`}}></div>
+                        {/* <CardImg top width="100%" src={item.image} alt={item.title} /> */}
                         <CardBody className="p-2">
                             <h6 className="card-title">{item.name}</h6>
                             <p className="card-title">{item.description}</p>
@@ -40,9 +42,11 @@ export default class TourList extends Component {
             <div className="container pt-5 pb-5">
                 <div className="row">
                     {this.state.loaded ? (
-                        this.state.data.length === 0 ? <div className="col-sm-12">No Data Avalable</div> : list
+                        this.state.data.length === 0 ? <div className="col-sm-12">No Data Available</div> : list
                     ) : (
-                        <div className="col-sm-12">Please Wait ...</div>
+                        <div className="col-sm-12 row justify-content-center">
+                            <LoadSpinner bg="2c3280" className="text-white text-center mb-4" />
+                        </div>
                     )}
                 </div>
             </div>

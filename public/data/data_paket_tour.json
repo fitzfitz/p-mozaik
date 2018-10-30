@@ -2,45 +2,45 @@
     "title": "Eropa Tour",
     "slug": "eropa_tour",
     "description": "Tersedia perjalanan ke Turki, Perancis, Jermal, Italia, Swiss dan Belanda",
-    "image": "https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180",
+    "image": "/assets/product/tour/muslim/Eropa Tour.jpg",
     "data": [{
         "slug": "turki",
         "name": "Turki",
         "description": "Istanbul - Cappadocia - Ankara",
         "price": 18000000,
         "time": "10H8N",
-        "image": "https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180"
+        "image": "/assets/product/tour/eropa/Turki.png"
     }, {
         "slug": "belanda",
         "name": "Belanda",
         "description": "Amsterdam - Koninklijk Paleis - Van Oranga",
         "price": 28000000,
         "time": "8H6N",
-        "image": "https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180"
+        "image": "/assets/product/tour/eropa/Belanda.jpg"
     }, {
         "slug": "perancis",
         "name": "Perancis",
         "description": "Paris - Eiffel Tower - Manekken Pis",
         "price": 30000000,
         "time": "8H6N",
-        "image": "https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180"
+        "image": "/assets/product/tour/eropa/Perancis.jpg"
     }]
 }, {
     "title": "Asia Tour",
     "slug": "asia_tour",
     "description": "Tersedia perjalanan ke Jepang, Cina, Korea Selatan, Malaysia, Bangkok, Singapura dan Brunei Darussalam",
-    "image": "https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180",
+    "image": "/assets/product/tour/muslim/Asia Tour.jpg",
     "data": []
 }, {
     "title": "Timur Tengah Tour",
     "slug": "timur_tengah_tour",
     "description": "Tersedia perjalanan ke Dubai, Yordan, Mesir, Moroko dan Al-Aqsa",
-    "image": "https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180",
+    "image": "/assets/product/tour/muslim/Timur Tengah Tour.jpg",
     "data": []
 }, {
     "title": "Domestik Tour",
     "slug": "domestik_tour",
     "description": "Tersedia perjalanan ke Bali, Bromo, Malang, Lombok, Labuan Bajo, Yogyakarta, Bandung dan Raja Ampat",
-    "image": "https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180",
+    "image": "/assets/product/tour/muslim/Domestik Tour.jpg",
     "data": []
 }]

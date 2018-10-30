@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Card, CardImg, CardText, CardBody } from 'reactstrap';
+import { Card, CardText, CardBody } from 'reactstrap';
 import { NavLink } from 'react-router-dom'
 
 export default class TourListHeader extends Component {
@@ -21,7 +21,8 @@ export default class TourListHeader extends Component {
             return (
                 <NavLink key={key} style={{display: 'flex'}} className="col-sm-3" to={`${path}/list/${item.slug}`}>
                     <Card>
-                        <CardImg top width="100%" src={item.image} alt={item.title} />
+                        <div className="responsive-card-img-group" style={{backgroundImage: `url('${item.image}')`}}></div>
+                        {/* <CardImg top width="100%" src={item.image} alt={item.title} /> */}
                         <CardBody className="p-2">
                             <h6 className="card-title">{item.title}</h6>
                             <CardText>{item.description}</CardText>

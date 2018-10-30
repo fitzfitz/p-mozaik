@@ -112,9 +112,9 @@ export default class Contact extends Component {
                                             </div>
                                         </div>
                                         <div className="form-group row">
-                                            <label htmlFor="email" className="col-sm-3 col-form-label">Email</label>
+                                            <label htmlFor="email" className="col-sm-3 col-form-label">Email*</label>
                                             <div className="col-sm-9">
-                                                <input type="email" className="form-control" onChange={this.handleChange} id="email" />
+                                                <input type="email" className="form-control" onChange={this.handleChange} id="email" required />
                                             </div>
                                         </div>
                                     </div>
@@ -130,8 +130,9 @@ export default class Contact extends Component {
                                             <div className="col-sm-9">
                                                 <select className="form-control" onChange={this.handleChange} id="packages" required>
                                                     <option value=""></option>
-                                                    <option value="1">Paket Umroh 9 Hari</option>
-                                                    <option value="2">...</option>
+                                                    <option value="Paket Group">Paket Group</option>
+                                                    <option value="Paket 10 hari">Paket 10 hari</option>
+                                                    <option value="Paket 9 Hari">Paket 9 Hari</option>
                                                 </select>
                                             </div>
                                         </div>
@@ -183,10 +184,10 @@ export default class Contact extends Component {
                             </div>
                         ) : (
                             <div className="container contact-branches">
-                                <div className="row">
+                                <div className="fitz-list-wrap">
                                     {this.state.branch.map((item, key) => {
                                         return (
-                                            <div key={key} className="col-md-6">
+                                            <div key={key} className="fitz-list">
                                                 <label>{item.state} :</label>
                                                 <ul>
                                                     {item.city.map((city, c_key) => {

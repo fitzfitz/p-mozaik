@@ -19,7 +19,7 @@ export default class Gallery extends Component {
                 console.log(res.Gallery[0].id_category)
                 this.setState({
                     firstSlug: res.Gallery.length>0?res.Gallery[0].id_category:'',
-                    isLoading: false, 
+                    isLoading: false,
                     isLoaded: true,
                     articles: res.Gallery
                 })

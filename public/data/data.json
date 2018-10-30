@@ -94,17 +94,17 @@
                 "title": "Testimoni"
             },
             "items": [{
-                "name": "Subhan Hasanuddin",                
+                "name": "Subhan Hasanuddin",
                 "title": "Pelayanan Masyarakat",
                 "image": "/assets/home/testimoni/subhan-hasanudin.jpeg",
                 "comment": "Alhamdulillah Mozaik membantu saya melakukan perjalanan umrah bersama keluarga. Pelayanan berkualitas dan memuaskan bagi saya."
             }, {
-                "name": "Syarief Hanafi",                
+                "name": "Syarief Hanafi",
                 "title": "Project Manager",
                 "image": "/assets/home/testimoni/syarief-hanafi.jpeg",
                 "comment": "Melakukan perjalanan umrah bersama Mozaik, membuat ibadah umrah saya terasa memuaskan karena adanya program ta'alim dipelataran masjid madinah dan makkah dan muttawifnya dapat membimbing kami dengan sabar."
             }, {
-                "name": "Fitri Zeemah",                
+                "name": "Fitri Zeemah",
                 "title": "Accounting",
                 "image": "/assets/home/testimoni/fitri-zeemah.jpeg",
                 "comment": "Mengikuti program umrah yang ada di Mozaik, pelayanannya secara fasilitas, program kegiatan dan bimbingan ibadah selama umrah membuat saya dan keluarga dapat menjalaninya dengan puas dan penuh dengan rasa bersyukur."
@@ -140,132 +140,195 @@
         "id_category": "umrah",
         "title": "Perjalanan Umrah",
         "data": [{
-            "caption": "Rombongan Semarang 17 Juni 2017",
-            "src": "/assets/home/slider/3. Visa - polos.jpg",
+            "caption": "4 Juni 2018 Mozaik Pusat Akhir Ramadhan (Ust. Ibsu)",
+            "src": "/assets/gallery/Umrah/4 Juni 2018 Mozaik Pusat Akhir Ramadhan (Ust. Ibsu)/WhatsApp Image 2018-06-06 at 21.18.01.jpeg",
             "srcSet": [
-                "/assets/gallery/Umrah/3 Juni 2018 Pusat (Ust. Ibsu)/WhatsApp Image 2018-06-03 at 13.12.42.jpeg",
+                "/assets/gallery/Umrah/4 Juni 2018 Mozaik Pusat Akhir Ramadhan (Ust. Ibsu)/WhatsApp Image 2018-06-06 at 13.21.11.jpeg",
+                "/assets/gallery/Umrah/4 Juni 2018 Mozaik Pusat Akhir Ramadhan (Ust. Ibsu)/WhatsApp Image 2018-06-06 at 21.18.01.jpeg",
+                "/assets/gallery/Umrah/4 Juni 2018 Mozaik Pusat Akhir Ramadhan (Ust. Ibsu)/WhatsApp Image 2018-06-15 at 08.59.47.jpeg",
+                "/assets/gallery/Umrah/4 Juni 2018 Mozaik Pusat Akhir Ramadhan (Ust. Ibsu)/WhatsApp Image 2018-06-16 at 22.48.50.jpeg",
+                "/assets/gallery/Umrah/4 Juni 2018 Mozaik Pusat Akhir Ramadhan (Ust. Ibsu)/WhatsApp Image 2018-06-16 at 22.48.52.jpeg",
+                "/assets/gallery/Umrah/4 Juni 2018 Mozaik Pusat Akhir Ramadhan (Ust. Ibsu)/WhatsApp Image 2018-06-16 at 23.34.13.jpeg",
+                "/assets/gallery/Umrah/4 Juni 2018 Mozaik Pusat Akhir Ramadhan (Ust. Ibsu)/WhatsApp Image 2018-06-17 at 00.44.30.jpeg",
+                "/assets/gallery/Umrah/4 Juni 2018 Mozaik Pusat Akhir Ramadhan (Ust. Ibsu)/WhatsApp Image 2018-06-17 at 05.24.07.jpeg",
+                "/assets/gallery/Umrah/4 Juni 2018 Mozaik Pusat Akhir Ramadhan (Ust. Ibsu)/WhatsApp Image 2018-06-17 at 15.30.23.jpeg",
+                "/assets/gallery/Umrah/4 Juni 2018 Mozaik Pusat Akhir Ramadhan (Ust. Ibsu)/WhatsApp Image 2018-06-17 at 15.31.11.jpeg"
+            ]
+        }, {
+            "caption": "3 Juni 2018 Pusat (Ust. Ibsu)",
+            "src": "/assets/gallery/Umrah/3 Juni 2018 Pusat (Ust. Ibsu)/WhatsApp Image 2018-06-06 at 11.12.28.jpeg",
+            "srcSet": [
+                "/assets/gallery/Umrah/3 Juni 2018 Pusat (Ust. Ibsu)/WhatsApp Image 2018-06-03 at 13.31.25.jpeg",
+                "/assets/gallery/Umrah/3 Juni 2018 Pusat (Ust. Ibsu)/WhatsApp Image 2018-06-03 at 14.32.08.jpeg",
+                "/assets/gallery/Umrah/3 Juni 2018 Pusat (Ust. Ibsu)/WhatsApp Image 2018-06-04 at 02.09.30.jpeg",
+                "/assets/gallery/Umrah/3 Juni 2018 Pusat (Ust. Ibsu)/WhatsApp Image 2018-06-04 at 02.09.40.jpeg",
+                "/assets/gallery/Umrah/3 Juni 2018 Pusat (Ust. Ibsu)/WhatsApp Image 2018-06-06 at 11.12.28.jpeg",
+                "/assets/gallery/Umrah/3 Juni 2018 Pusat (Ust. Ibsu)/WhatsApp Image 2018-06-06 at 13.21.11.jpeg",
                 "/assets/gallery/Umrah/3 Juni 2018 Pusat (Ust. Ibsu)/WhatsApp Image 2018-06-06 at 18.33.49.jpeg",
-                "/assets/gallery/Umrah/3 Juni 2018 Pusat (Ust. Ibsu)/WhatsApp Image 2018-06-06 at 18.59.54.jpeg",
-                "/assets/gallery/Umrah/3 Juni 2018 Pusat (Ust. Ibsu)/WhatsApp Image 2018-06-06 at 18.59.52.jpeg",
-                "/assets/gallery/Umrah/3 Juni 2018 Pusat (Ust. Ibsu)/WhatsApp Image 2018-06-06 at 13.21.11.jpeg"
+                "/assets/gallery/Umrah/3 Juni 2018 Pusat (Ust. Ibsu)/WhatsApp Image 2018-06-06 at 19.00.11.jpeg",
+                "/assets/gallery/Umrah/3 Juni 2018 Pusat (Ust. Ibsu)/WhatsApp Image 2018-06-06 at 19.01.10.jpeg",
+                "/assets/gallery/Umrah/3 Juni 2018 Pusat (Ust. Ibsu)/WhatsApp Image 2018-06-06 at 21.18.01.jpeg"
             ]
         }, {
-            "caption": "Rombongan Semarang 17 Juni 2017",
-            "src": "/assets/home/slider/3. Visa - polos.jpg",
+            "caption": "16 Mei 2018 Pusat (Ust. Muamar)",
+            "src": "/assets/gallery/Umrah/16 Mei 2018 Pusat (Ust. Muamar)/WhatsApp Image 2018-05-22 at 10.39.01.jpeg",
             "srcSet": [
-                "/assets/home/slider/3. Visa - polos.jpg",
-                "/assets/home/slider/3. Visa - polos.jpg",
-                "/assets/home/slider/3. Visa - polos.jpg",
-                "/assets/home/slider/3. Visa - polos.jpg",
-                "/assets/home/slider/3. Visa - polos.jpg"
+                "/assets/gallery/Umrah/16 Mei 2018 Pusat (Ust. Muamar)/WhatsApp Image 2018-05-17 at 11.33.57.jpeg",
+                "/assets/gallery/Umrah/16 Mei 2018 Pusat (Ust. Muamar)/WhatsApp Image 2018-05-17 at 11.34.33.jpeg",
+                "/assets/gallery/Umrah/16 Mei 2018 Pusat (Ust. Muamar)/WhatsApp Image 2018-05-17 at 12.05.46.jpeg",
+                "/assets/gallery/Umrah/16 Mei 2018 Pusat (Ust. Muamar)/WhatsApp Image 2018-05-18 at 10.11.10.jpeg",
+                "/assets/gallery/Umrah/16 Mei 2018 Pusat (Ust. Muamar)/WhatsApp Image 2018-05-19 at 11.55.40.jpeg",
+                "/assets/gallery/Umrah/16 Mei 2018 Pusat (Ust. Muamar)/WhatsApp Image 2018-05-19 at 11.55.41.jpeg",
+                "/assets/gallery/Umrah/16 Mei 2018 Pusat (Ust. Muamar)/WhatsApp Image 2018-05-19 at 11.55.48.jpeg",
+                "/assets/gallery/Umrah/16 Mei 2018 Pusat (Ust. Muamar)/WhatsApp Image 2018-05-19 at 11.55.52.jpeg",
+                "/assets/gallery/Umrah/16 Mei 2018 Pusat (Ust. Muamar)/WhatsApp Image 2018-05-22 at 10.38.59 (1).jpeg",
+                "/assets/gallery/Umrah/16 Mei 2018 Pusat (Ust. Muamar)/WhatsApp Image 2018-05-22 at 10.39.01.jpeg"
             ]
         }, {
-            "caption": "Rombongan Semarang 17 Juni 2017",
-            "src": "/assets/home/slider/3. Visa - polos.jpg",
+            "caption": "3 Mei 2018 Pusat SV (Ust Ibsu)",
+            "src": "/assets/gallery/Umrah/3 Mei 2018 Pusat SV (Ust Ibsu)/WhatsApp Image 2018-05-05 at 05.28.21.jpeg",
             "srcSet": [
-                "/assets/home/slider/3. Visa - polos.jpg",
-                "/assets/home/slider/3. Visa - polos.jpg",
-                "/assets/home/slider/3. Visa - polos.jpg",
-                "/assets/home/slider/3. Visa - polos.jpg",
-                "/assets/home/slider/3. Visa - polos.jpg"
+                "/assets/gallery/Umrah/3 Mei 2018 Pusat SV (Ust Ibsu)/WhatsApp Image 2018-05-03 at 19.41.46.jpeg",
+                "/assets/gallery/Umrah/3 Mei 2018 Pusat SV (Ust Ibsu)/WhatsApp Image 2018-05-04 at 05.37.31.jpeg",
+                "/assets/gallery/Umrah/3 Mei 2018 Pusat SV (Ust Ibsu)/WhatsApp Image 2018-05-04 at 18.44.33.jpeg",
+                "/assets/gallery/Umrah/3 Mei 2018 Pusat SV (Ust Ibsu)/WhatsApp Image 2018-05-04 at 18.45.28.jpeg",
+                "/assets/gallery/Umrah/3 Mei 2018 Pusat SV (Ust Ibsu)/WhatsApp Image 2018-05-05 at 05.27.22.jpeg",
+                "/assets/gallery/Umrah/3 Mei 2018 Pusat SV (Ust Ibsu)/WhatsApp Image 2018-05-05 at 05.28.21.jpeg",
+                "/assets/gallery/Umrah/3 Mei 2018 Pusat SV (Ust Ibsu)/WhatsApp Image 2018-05-05 at 06.03.46.jpeg",
+                "/assets/gallery/Umrah/3 Mei 2018 Pusat SV (Ust Ibsu)/WhatsApp Image 2018-05-05 at 06.03.52 (1).jpeg",
+                "/assets/gallery/Umrah/3 Mei 2018 Pusat SV (Ust Ibsu)/WhatsApp Image 2018-05-05 at 06.03.54.jpeg",
+                "/assets/gallery/Umrah/3 Mei 2018 Pusat SV (Ust Ibsu)/WhatsApp Image 2018-05-05 at 09.24.33.jpeg"
+            ]
+        }, {
+            "caption": "26 April 2018 Mozaik Pusat (Ust. Muammar)",
+            "src": "/assets/gallery/Umrah/26 April 2018 Mozaik Pusat (Ust. Muammar)/WhatsApp Image 2018-05-02 at 10.54.50.jpeg",
+            "srcSet": [
+                "/assets/gallery/Umrah/26 April 2018 Mozaik Pusat (Ust. Muammar)/WhatsApp Image 2018-04-26 at 22.56.01.jpeg",
+                "/assets/gallery/Umrah/26 April 2018 Mozaik Pusat (Ust. Muammar)/WhatsApp Image 2018-04-28 at 11.49.35 (1).jpeg",
+                "/assets/gallery/Umrah/26 April 2018 Mozaik Pusat (Ust. Muammar)/WhatsApp Image 2018-04-28 at 11.49.37 (1).jpeg",
+                "/assets/gallery/Umrah/26 April 2018 Mozaik Pusat (Ust. Muammar)/WhatsApp Image 2018-04-28 at 11.49.38.jpeg",
+                "/assets/gallery/Umrah/26 April 2018 Mozaik Pusat (Ust. Muammar)/WhatsApp Image 2018-04-30 at 10.44.53.jpeg",
+                "/assets/gallery/Umrah/26 April 2018 Mozaik Pusat (Ust. Muammar)/WhatsApp Image 2018-04-30 at 10.44.55 (1).jpeg",
+                "/assets/gallery/Umrah/26 April 2018 Mozaik Pusat (Ust. Muammar)/WhatsApp Image 2018-05-02 at 10.54.50.jpeg",
+                "/assets/gallery/Umrah/26 April 2018 Mozaik Pusat (Ust. Muammar)/WhatsApp Image 2018-05-02 at 10.55.43.jpeg",
+                "/assets/gallery/Umrah/26 April 2018 Mozaik Pusat (Ust. Muammar)/WhatsApp Image 2018-05-02 at 10.55.55.jpeg",
+                "/assets/gallery/Umrah/26 April 2018 Mozaik Pusat (Ust. Muammar)/WhatsApp Image 2018-05-02 at 17.33.20.jpeg"
+            ]
+        }, {
+            "caption": "12 April 2018 (Ust. Muammar & Ust. Fahmi)",
+            "src": "/assets/gallery/Umrah/12 April 2018 (Ust. Muammar & Ust. Fahmi) (DONE)/WhatsApp Image 2018-04-14 at 19.40.22.jpeg",
+            "srcSet": [
+                "/assets/gallery/Umrah/12 April 2018 (Ust. Muammar & Ust. Fahmi) (DONE)/WhatsApp Image 2018-04-14 at 19.40.22.jpeg",
+                "/assets/gallery/Umrah/12 April 2018 (Ust. Muammar & Ust. Fahmi) (DONE)/WhatsApp Image 2018-04-14 at 19.40.25.jpeg",
+                "/assets/gallery/Umrah/12 April 2018 (Ust. Muammar & Ust. Fahmi) (DONE)/WhatsApp Image 2018-04-14 at 19.40.28.jpeg",
+                "/assets/gallery/Umrah/12 April 2018 (Ust. Muammar & Ust. Fahmi) (DONE)/WhatsApp Image 2018-04-16 at 10.09.20.jpeg",
+                "/assets/gallery/Umrah/12 April 2018 (Ust. Muammar & Ust. Fahmi) (DONE)/WhatsApp Image 2018-04-16 at 13.39.26.jpeg",
+                "/assets/gallery/Umrah/12 April 2018 (Ust. Muammar & Ust. Fahmi) (DONE)/WhatsApp Image 2018-04-16 at 13.39.27.jpeg",
+                "/assets/gallery/Umrah/12 April 2018 (Ust. Muammar & Ust. Fahmi) (DONE)/WhatsApp Image 2018-04-16 at 13.39.29.jpeg",
+                "/assets/gallery/Umrah/12 April 2018 (Ust. Muammar & Ust. Fahmi) (DONE)/WhatsApp Image 2018-04-16 at 13.40.14.jpeg",
+                "/assets/gallery/Umrah/12 April 2018 (Ust. Muammar & Ust. Fahmi) (DONE)/WhatsApp Image 2018-04-16 at 13.40.16.jpeg",
+                "/assets/gallery/Umrah/12 April 2018 (Ust. Muammar & Ust. Fahmi) (DONE)/WhatsApp Image 2018-04-16 at 13.40.36.jpeg"
+            ]
+        }, {
+            "caption": "15 Maret 2018 Mozaik (Ust. Fariq)",
+            "src": "/assets/gallery/Umrah/15 Maret 2018 Mozaik (Ust. Fariq)/WhatsApp Image 2018-03-18 at 18.05.50 (1).jpeg",
+            "srcSet": [
+                "/assets/gallery/Umrah/15 Maret 2018 Mozaik (Ust. Fariq)/WhatsApp Image 2018-03-18 at 18.05.46 (1).jpeg",
+                "/assets/gallery/Umrah/15 Maret 2018 Mozaik (Ust. Fariq)/WhatsApp Image 2018-03-18 at 18.05.48 (1).jpeg",
+                "/assets/gallery/Umrah/15 Maret 2018 Mozaik (Ust. Fariq)/WhatsApp Image 2018-03-18 at 18.05.50 (1).jpeg",
+                "/assets/gallery/Umrah/15 Maret 2018 Mozaik (Ust. Fariq)/WhatsApp Image 2018-03-18 at 18.05.50.jpeg",
+                "/assets/gallery/Umrah/15 Maret 2018 Mozaik (Ust. Fariq)/WhatsApp Image 2018-03-18 at 18.05.51 (1).jpeg",
+                "/assets/gallery/Umrah/15 Maret 2018 Mozaik (Ust. Fariq)/WhatsApp Image 2018-03-22 at 18.57.31.jpeg",
+                "/assets/gallery/Umrah/15 Maret 2018 Mozaik (Ust. Fariq)/WhatsApp Image 2018-03-22 at 18.57.36 (1).jpeg",
+                "/assets/gallery/Umrah/15 Maret 2018 Mozaik (Ust. Fariq)/WhatsApp Image 2018-03-22 at 18.57.37.jpeg"
+            ]
+        }, {
+            "caption": "14 Maret 2018 Bali (Ust. Andri)",
+            "src": "/assets/gallery/Umrah/14 Maret 2018 Bali (Ust. Andri)/WhatsApp Image 2018-03-19 at 16.43.53 (2).jpeg",
+            "srcSet": [
+                "/assets/gallery/Umrah/14 Maret 2018 Bali (Ust. Andri)/WhatsApp Image 2018-03-19 at 16.43.48.jpeg",
+                "/assets/gallery/Umrah/14 Maret 2018 Bali (Ust. Andri)/WhatsApp Image 2018-03-19 at 16.43.53 (2).jpeg",
+                "/assets/gallery/Umrah/14 Maret 2018 Bali (Ust. Andri)/WhatsApp Image 2018-03-19 at 16.43.53.jpeg",
+                "/assets/gallery/Umrah/14 Maret 2018 Bali (Ust. Andri)/WhatsApp Image 2018-03-19 at 16.43.59.jpeg",
+                "/assets/gallery/Umrah/14 Maret 2018 Bali (Ust. Andri)/WhatsApp Image 2018-03-19 at 16.44.00.jpeg",
+                "/assets/gallery/Umrah/14 Maret 2018 Bali (Ust. Andri)/WhatsApp Image 2018-03-21 at 15.35.47.jpeg",
+                "/assets/gallery/Umrah/14 Maret 2018 Bali (Ust. Andri)/WhatsApp Image 2018-03-21 at 15.35.52.jpeg",
+                "/assets/gallery/Umrah/14 Maret 2018 Bali (Ust. Andri)/WhatsApp Image 2018-03-21 at 15.35.53 (1).jpeg",
+                "/assets/gallery/Umrah/14 Maret 2018 Bali (Ust. Andri)/WhatsApp Image 2018-03-21 at 15.35.53 (2).jpeg",
+                "/assets/gallery/Umrah/14 Maret 2018 Bali (Ust. Andri)/WhatsApp Image 2018-03-22 at 15.22.55.jpeg"
+            ]
+        }, {
+            "caption": "8 Maret 2018 Mozaik pusat (Ust. Ibsu)",
+            "src": "/assets/gallery/Umrah/8 Maret 2018 Mozaik pusat (Ust. Ibsu)/WhatsApp Image 2018-03-09 at 14.59.41.jpeg",
+            "srcSet": [
+                "/assets/gallery/Umrah/8 Maret 2018 Mozaik pusat (Ust. Ibsu)/WhatsApp Image 2018-03-09 at 14.59.41.jpeg",
+                "/assets/gallery/Umrah/8 Maret 2018 Mozaik pusat (Ust. Ibsu)/WhatsApp Image 2018-03-10 at 07.50.04.jpeg",
+                "/assets/gallery/Umrah/8 Maret 2018 Mozaik pusat (Ust. Ibsu)/WhatsApp Image 2018-03-10 at 13.53.27.jpeg",
+                "/assets/gallery/Umrah/8 Maret 2018 Mozaik pusat (Ust. Ibsu)/WhatsApp Image 2018-03-10 at 15.16.11.jpeg",
+                "/assets/gallery/Umrah/8 Maret 2018 Mozaik pusat (Ust. Ibsu)/WhatsApp Image 2018-03-10 at 23.45.38.jpeg",
+                "/assets/gallery/Umrah/8 Maret 2018 Mozaik pusat (Ust. Ibsu)/WhatsApp Image 2018-03-11 at 12.29.03.jpeg",
+                "/assets/gallery/Umrah/8 Maret 2018 Mozaik pusat (Ust. Ibsu)/WhatsApp Image 2018-03-11 at 13.38.10.jpeg",
+                "/assets/gallery/Umrah/8 Maret 2018 Mozaik pusat (Ust. Ibsu)/WhatsApp Image 2018-03-11 at 14.54.20.jpeg",
+                "/assets/gallery/Umrah/8 Maret 2018 Mozaik pusat (Ust. Ibsu)/WhatsApp Image 2018-03-11 at 14.54.21.jpeg",
+                "/assets/gallery/Umrah/8 Maret 2018 Mozaik pusat (Ust. Ibsu)/WhatsApp Image 2018-03-11 at 14.54.27.jpeg"
+            ]
+        }, {
+            "caption": "7 Maret 2018 Surabaya (Ust. Muammar)",
+            "src": "/assets/gallery/Umrah/7 Maret 2018 Surabaya (Ust. Muammar)/WhatsApp Image 2018-03-13 at 11.46.28.jpeg",
+            "srcSet": [
+                "/assets/gallery/Umrah/7 Maret 2018 Surabaya (Ust. Muammar)/WhatsApp Image 2018-03-13 at 11.33.46.jpeg",
+                "/assets/gallery/Umrah/7 Maret 2018 Surabaya (Ust. Muammar)/WhatsApp Image 2018-03-13 at 11.42.36.jpeg",
+                "/assets/gallery/Umrah/7 Maret 2018 Surabaya (Ust. Muammar)/WhatsApp Image 2018-03-13 at 11.46.28.jpeg",
+                "/assets/gallery/Umrah/7 Maret 2018 Surabaya (Ust. Muammar)/WhatsApp Image 2018-03-13 at 11.46.36.jpeg",
+                "/assets/gallery/Umrah/7 Maret 2018 Surabaya (Ust. Muammar)/WhatsApp Image 2018-03-13 at 18.10.29.jpeg",
+                "/assets/gallery/Umrah/7 Maret 2018 Surabaya (Ust. Muammar)/WhatsApp Image 2018-03-13 at 18.11.57.jpeg",
+                "/assets/gallery/Umrah/7 Maret 2018 Surabaya (Ust. Muammar)/WhatsApp Image 2018-03-13 at 18.13.00.jpeg",
+                "/assets/gallery/Umrah/7 Maret 2018 Surabaya (Ust. Muammar)/WhatsApp Image 2018-03-13 at 18.41.07.jpeg",
+                "/assets/gallery/Umrah/7 Maret 2018 Surabaya (Ust. Muammar)/WhatsApp Image 2018-03-13 at 18.46.57.jpeg",
+                "/assets/gallery/Umrah/7 Maret 2018 Surabaya (Ust. Muammar)/WhatsApp Image 2018-03-13 at 18.47.05.jpeg"
             ]
         }]
     }, {
         "id_category": "tour",
         "title": "Muslim Tour",
         "data": [{
-            "caption": "Rombongan Semarang 17 Juni 2017",
-            "src": "/assets/home/slider/3. Visa - polos.jpg",
+            "caption": "",
+            "src": "/assets/gallery/Muslim Tour/14494607_616400251873700_5848977805469163061_n.jpg",
             "srcSet": [
-                "/assets/home/slider/3. Visa - polos.jpg",
-                "/assets/home/slider/3. Visa - polos.jpg",
-                "/assets/home/slider/3. Visa - polos.jpg",
-                "/assets/home/slider/3. Visa - polos.jpg",
-                "/assets/home/slider/3. Visa - polos.jpg"
-            ]
-        }, {
-            "caption": "Rombongan Semarang 17 Juni 2017",
-            "src": "/assets/home/slider/3. Visa - polos.jpg",
-            "srcSet": [
-                "/assets/home/slider/3. Visa - polos.jpg",
-                "/assets/home/slider/3. Visa - polos.jpg",
-                "/assets/home/slider/3. Visa - polos.jpg",
-                "/assets/home/slider/3. Visa - polos.jpg",
-                "/assets/home/slider/3. Visa - polos.jpg"
-            ]
-        }, {
-            "caption": "Rombongan Semarang 17 Juni 2017",
-            "src": "/assets/home/slider/3. Visa - polos.jpg",
-            "srcSet": [
-                "/assets/home/slider/3. Visa - polos.jpg",
-                "/assets/home/slider/3. Visa - polos.jpg",
-                "/assets/home/slider/3. Visa - polos.jpg",
-                "/assets/home/slider/3. Visa - polos.jpg",
-                "/assets/home/slider/3. Visa - polos.jpg"
-            ]
-        }, {
-            "caption": "Rombongan Semarang 17 Juni 2017",
-            "src": "/assets/home/slider/3. Visa - polos.jpg",
-            "srcSet": [
-                "/assets/home/slider/3. Visa - polos.jpg",
-                "/assets/home/slider/3. Visa - polos.jpg",
-                "/assets/home/slider/3. Visa - polos.jpg",
-                "/assets/home/slider/3. Visa - polos.jpg",
-                "/assets/home/slider/3. Visa - polos.jpg"
-            ]
-        }, {
-            "caption": "Rombongan Semarang 17 Juni 2017",
-            "src": "/assets/home/slider/3. Visa - polos.jpg",
-            "srcSet": [
-                "/assets/home/slider/3. Visa - polos.jpg",
-                "/assets/home/slider/3. Visa - polos.jpg",
-                "/assets/home/slider/3. Visa - polos.jpg",
-                "/assets/home/slider/3. Visa - polos.jpg",
-                "/assets/home/slider/3. Visa - polos.jpg"
-            ]
-        }, {
-            "caption": "Rombongan Semarang 17 Juni 2017",
-            "src": "/assets/home/slider/3. Visa - polos.jpg",
-            "srcSet": [
-                "/assets/home/slider/3. Visa - polos.jpg",
-                "/assets/home/slider/3. Visa - polos.jpg",
-                "/assets/home/slider/3. Visa - polos.jpg",
-                "/assets/home/slider/3. Visa - polos.jpg",
-                "/assets/home/slider/3. Visa - polos.jpg"
+                "/assets/gallery/Muslim Tour/14494607_616400251873700_5848977805469163061_n.jpg",
+                "/assets/gallery/Muslim Tour/14445099_616401171873608_8587513403734425352_o.jpg",
+                "/assets/gallery/Muslim Tour/14446073_616400701873655_2939632635855725507_n.jpg",
+                "/assets/gallery/Muslim Tour/14484654_616401335206925_5221740464487445135_n.jpg",
+                "/assets/gallery/Muslim Tour/14484659_616401158540276_7936828872960824202_n.jpg",
+                "/assets/gallery/Muslim Tour/14484836_616400715206987_7874001412781845077_n.jpg",
+                "/assets/gallery/Muslim Tour/14502772_616400768540315_3087443525326265632_n.jpg",
+                "/assets/gallery/Muslim Tour/14517458_616400395207019_2559788583298656640_n.jpg",
+                "/assets/gallery/Muslim Tour/14519655_616400505207008_6915505820613086895_n.jpg",
+                "/assets/gallery/Muslim Tour/14519691_616400408540351_4554364177318222758_n.jpg",
+                "/assets/gallery/Muslim Tour/14520460_616401268540265_226932933120462523_n.jpg",
+                "/assets/gallery/Muslim Tour/WhatsApp Image 2018-07-27 at 11.31.41 (1).jpeg",
+                "/assets/gallery/Muslim Tour/WhatsApp Image 2018-07-27 at 11.31.41.jpeg",
+                "/assets/gallery/Muslim Tour/WhatsApp Image 2018-07-27 at 11.31.42.jpeg",
+                "/assets/gallery/Muslim Tour/WhatsApp Image 2018-07-27 at 11.31.43.jpeg",
+                "/assets/gallery/Muslim Tour/WhatsApp Image 2018-10-11 at 19.20.46.jpeg",
+                "/assets/gallery/Muslim Tour/WhatsApp Image 2018-10-11 at 19.20.47.jpeg",
+                "/assets/gallery/Muslim Tour/WhatsApp Image 2018-10-11 at 19.20.48.jpeg",
+                "/assets/gallery/Muslim Tour/WhatsApp Image 2018-10-11 at 19.20.49.jpeg",
+                "/assets/gallery/Muslim Tour/WhatsApp Image 2018-10-11 at 19.20.50.jpeg"
             ]
         }]
     }, {
         "id_category": "domestik_tour",
         "title": "Domestik Tour",
         "data": [{
-            "caption": "Rombongan Semarang 17 Juni 2017",
-            "src": "/assets/home/slider/3. Visa - polos.jpg",
+            "caption": "Lombok",
+            "src": "/assets/gallery/Domestik/Lombok/IMG20180317134806.jpg",
             "srcSet": [
-                "/assets/home/slider/3. Visa - polos.jpg",
-                "/assets/home/slider/3. Visa - polos.jpg",
-                "/assets/home/slider/3. Visa - polos.jpg",
-                "/assets/home/slider/3. Visa - polos.jpg",
-                "/assets/home/slider/3. Visa - polos.jpg"
-            ]
-        }, {
-            "caption": "Rombongan Semarang 17 Juni 2017",
-            "src": "/assets/home/slider/3. Visa - polos.jpg",
-            "srcSet": [
-                "/assets/home/slider/3. Visa - polos.jpg",
-                "/assets/home/slider/3. Visa - polos.jpg",
-                "/assets/home/slider/3. Visa - polos.jpg",
-                "/assets/home/slider/3. Visa - polos.jpg",
-                "/assets/home/slider/3. Visa - polos.jpg"
-            ]
-        }, {
-            "caption": "Rombongan Semarang 17 Juni 2017",
-            "src": "/assets/home/slider/3. Visa - polos.jpg",
-            "srcSet": [
-                "/assets/home/slider/3. Visa - polos.jpg",
-                "/assets/home/slider/3. Visa - polos.jpg",
-                "/assets/home/slider/3. Visa - polos.jpg",
-                "/assets/home/slider/3. Visa - polos.jpg",
-                "/assets/home/slider/3. Visa - polos.jpg"
+                "/assets/gallery/Domestik/Lombok/IMG20180317134806.jpg",
+                "/assets/gallery/Domestik/Lombok/IMG20180317133453.jpg",
+                "/assets/gallery/Domestik/Lombok/IMG20180317135642.jpg",
+                "/assets/gallery/Domestik/Lombok/IMG20180317154651.jpg",
+                "/assets/gallery/Domestik/Lombok/IMG20180318120817.jpg"
             ]
         }]
     }]

@@ -31,10 +31,10 @@ export default class TiketPesawatKereta extends Component {
                     <div className="container-fluid">
                         <div className="row">
                             <div className="thumbnail-md-text col-md-6 col-xs-12">
-                                <div className="card-wrap bg-image-center" style={{backgroundImage: `url('/assets/assets/other/corporate-sponsorship1.jpg')`}}></div>
+                                <div className="card-wrap bg-image-center" style={{backgroundImage: `url('/assets/assets/other/Advantages-and-Disadvantages-of-Buying-Airline-Tickets-Online.jpg')`}}></div>
                             </div>
                             <div className="thumbnail-md-text col-md-6 col-xs-12">
-                                <div className="card-wrap bg-image-center" style={{backgroundImage: `url('/assets/assets/other/corporate-sponsorship1.jpg')`}}></div>
+                                <div className="card-wrap bg-image-center" style={{backgroundImage: `url('/assets/assets/other/PT-Kereta-Api-train-735x400.jpg')`}}></div>
                             </div>
                         </div>
                     </div>

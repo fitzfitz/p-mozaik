@@ -80,3 +80,12 @@ table.fitz-style {
         color: #fff;
     }
 }
+
+.responsive-card-img-group {
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 60%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

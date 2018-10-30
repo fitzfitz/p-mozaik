@@ -1,0 +1,10 @@
+.fitz-list-wrap {
+    &:after {
+        display: table;
+        clear: both
+    }
+    .fitz-list {
+        width: 50%;
+        float: left;
+    }
+}

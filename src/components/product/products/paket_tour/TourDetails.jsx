@@ -9,6 +9,7 @@ export default class TourDetails extends Component {
         this.state = {
             activeTab: '1',
             loaded: false,
+            dataAvail: true,
             product: {
                 images: []
             }
@@ -19,6 +20,7 @@ export default class TourDetails extends Component {
             .then(res => res.json())
             .then(resp => {
                 const product = resp.find(item => item.slug === this.props.match.params.slug);
+                !product && this.setState({dataAvail: false});
                 this.setState({product, loaded: true})
             })
     }
@@ -30,7 +32,7 @@ export default class TourDetails extends Component {
         }
     }
     render() {
-        return (
+        return this.state.dataAvail ? (
             <div className="container text-left pt-5 pb-3">
                 {this.state.product && (
                     <div className="row">
@@ -95,6 +97,12 @@ export default class TourDetails extends Component {
                         </div>
                     </div>
                 )}
+            </div>
+        ) : (
+            <div className="container text-left pt-5 pb-5">
+                <div className="row">
+                    <div className="col-sm-12 text-center">No Data Available</div>
+                </div>
             </div>
         )
     }
