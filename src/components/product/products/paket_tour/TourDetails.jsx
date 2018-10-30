@@ -78,17 +78,17 @@ export default class TourDetails extends Component {
                                 </TabPane>
                                 <TabPane tabId="2">
                                     <Col sm="12">
-                                        {this.state.product.itinerary}
+                                        <div dangerouslySetInnerHTML={{ __html: this.state.product.itinerary }} />
                                     </Col>
                                 </TabPane>
                                 <TabPane tabId="3">
                                     <Col sm="12">
-                                        {this.state.product.facility}
+                                        <div dangerouslySetInnerHTML={{ __html: this.state.product.facility }} />
                                     </Col>
                                 </TabPane>
                                 <TabPane tabId="4">
                                     <Col sm="12">
-                                        {this.state.product.s_k}
+                                        <div dangerouslySetInnerHTML={{ __html: this.state.product.s_k }} />
                                     </Col>
                                 </TabPane>
                             </TabContent>
