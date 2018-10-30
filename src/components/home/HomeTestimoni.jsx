@@ -4,7 +4,7 @@ export default class HomeTestimoni extends Component {
     render() {
         const items = this.props.items.map((item) => {
             return (
-                <div key={item.name} className="home-advantage col-md-3 col-sm-4">
+                <div key={item.name} className="home-advantage home-testimoni col-md-3 col-sm-4">
                     <div className="card card-wrap no-bg no-bg">
                         <div className="card-image">
                             <div className="bg-image-center" style={{backgroundImage: `url(${item.image})`}}></div>

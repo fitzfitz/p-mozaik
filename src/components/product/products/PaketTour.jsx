@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
-import { Card, CardImg, CardText, CardBody } from 'reactstrap';
-import { NavLink } from 'react-router-dom'
+import { Switch, Route } from 'react-router-dom';
 import ProductCarousel from '../ProductCarousel';
+import TourDetails from './paket_tour/TourDetails';
+import TourListHeader from './paket_tour/TourListHeader';
+import TourList from './paket_tour/TourList';
 
 export default class PaketTour extends Component {
     constructor(props) {
@@ -36,26 +38,8 @@ export default class PaketTour extends Component {
             data: []
         }
     }
-    componentWillMount() {
-        fetch('/data/data_paket_tour.json')
-            .then(res => res.json())
-            .then(resp => this.setState({data: resp, loaded: true}))
-    }
     render() {
         const { path } = this.props.match;
-        const list = this.state.data.map((item, key) => {
-            return (
-                <NavLink key={key} style={{display: 'flex'}} className="col-sm-3" to={`${path}/${item.slug}`}>
-                    <Card>
-                        <CardImg top width="100%" src={item.image} alt={item.title} />
-                        <CardBody className="p-2">
-                            <h6 className="card-title">{item.title}</h6>
-                            <CardText>{item.description}</CardText>
-                        </CardBody>
-                    </Card>
-                </NavLink>
-            )
-        });
         return (
             <div className="content-wrap text-center">
                 <div className="container-fluid">
@@ -65,11 +49,11 @@ export default class PaketTour extends Component {
                         </div>
                     </div>
                 </div>
-                <div className="container pt-5 pb-5">
-                    <div className="row">
-                        {list}
-                    </div>
-                </div>
+                <Switch>
+                    <Route exact path={`${path}`} component={TourListHeader}/>
+                    <Route path={`${path}/list/:slug`} component={TourList}/>
+                    <Route path={`${path}/detail/:slug`} component={TourDetails}/>
+                </Switch>
             </div>
         )
     }

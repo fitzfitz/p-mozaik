@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import ProductCarousel from '../ProductCarousel';
 
 export default class PassportVisa extends Component {
     constructor(props) {
@@ -6,7 +7,8 @@ export default class PassportVisa extends Component {
         this.state = {
             loaded: true,
             carousel: [{
-                image: '/assets/service/carousel',
+                id: 1,
+                src: '/assets/product/slider/visa/3. Visa - polos.jpg',
                 title: 'PASSPORT & VISA',
                 descTop: null,
                 descMid: 'Kami melayani jasa rekomendasi passport dan pembuatan visa untuk keluar negri.'
@@ -19,7 +21,7 @@ export default class PassportVisa extends Component {
                 <div className="container-fluid">
                     <div className="row">
                         <div className="col-sm-12 pr-0 pl-0">
-                            <img className="card-img-top" src="/assets/home-slider/1. Tagline umrah mozaik - polos.jpg" alt=""/>
+                            <ProductCarousel items={this.state.carousel} />
                         </div>
                     </div>
                 </div>

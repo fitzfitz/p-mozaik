@@ -1,0 +1,121 @@
+[{
+    "state": "Jakarta",
+    "city": [{
+        "name": "Jakarta",
+        "contact": [{
+            "name": "Pak Hisyam",
+            "phone": "0818115519"
+        }]
+    }]
+}, {
+    "state": "Banten",
+    "city": [{
+        "name": "Banten",
+        "contact": [{
+            "name": "Pak Hadi",
+            "phone": "082353108242"
+        }]
+    }, {
+        "name": "Serang",
+        "contact": [{
+            "name": "Bu Harni",
+            "phone": "087871223796"
+        }]
+    }]
+}, {
+    "state": "Jawa Barat",
+    "city": [{
+        "name": "Bekasi",
+        "contact": [{
+            "name": "Bu Dewi",
+            "phone": "08128443672"
+        }]
+    }, {
+        "name": "Cibubur",
+        "contact": [{
+            "name": "Bu Aryani",
+            "phone": "081296702922"
+        }, {
+            "name": "Ust. Adrian Fandi",
+            "phone": "08108845045"
+        }]
+    }, {
+        "name": "Karawang",
+        "contact": [{
+            "name": "Bu Novi",
+            "phone": "089689083444"
+        }]
+    }]
+}, {
+    "state": "Provinsi Aceh",
+    "city": [{
+        "name": "",
+        "contact": [{
+            "name": "",
+            "phone": ""
+        }]
+    }]
+}, {
+    "state": "Sulawesi",
+    "city": [{
+        "name": "",
+        "contact": [{
+            "name": "",
+            "phone": ""
+        }]
+    }]
+}, {
+    "state": "Jawa Tengah",
+    "city": [{
+        "name": "",
+        "contact": [{
+            "name": "",
+            "phone": ""
+        }]
+    }]
+}, {
+    "state": "Jawa Timur",
+    "city": [{
+        "name": "",
+        "contact": [{
+            "name": "",
+            "phone": ""
+        }]
+    }]
+}, {
+    "state": "Sumatera",
+    "city": [{
+        "name": "",
+        "contact": [{
+            "name": "",
+            "phone": ""
+        }]
+    }]
+}, {
+    "state": "Kalimantan",
+    "city": [{
+        "name": "",
+        "contact": [{
+            "name": "",
+            "phone": ""
+        }]
+    }]
+}, {
+    "state": "Provinsi Bali",
+    "city": [{
+        "name": "",
+        "contact": [{
+            "name": "",
+            "phone": ""
+        }]
+    }]
+}, {
+    "state": "Nusa Tenggara Barat",
+    "city": [{
+        "name": "",
+        "contact": [{
+            "name": "",
+            "phone": ""
+        }]
+    }]
+}]

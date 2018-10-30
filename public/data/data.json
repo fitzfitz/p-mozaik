@@ -5,27 +5,27 @@
                 "title": ""
             },
             "items": [{
-                "src": "/assets/home-slider/1. Tagline umrah mozaik - polos.jpg",
+                "src": "/assets/home/slider/1. Tagline umrah mozaik - polos.jpg",
                 "title": null,
                 "descTop": null,
                 "descMid": null
             }, {
-                "src": "/assets/home-slider/2. Paket muslim tour - polos.jpg",
+                "src": "/assets/home/slider/2. Paket muslim tour - polos.jpg",
                 "title": "PAKET MUSLIM TOUR",
                 "descTop": null,
                 "descMid": null
             }, {
-                "src": "/assets/home-slider/3. Visa - polos.jpg",
+                "src": "/assets/home/slider/3. Visa - polos.jpg",
                 "title": "PASSPORT & VISA",
                 "descTop": null,
                 "descMid": "Kami melayani jasa rekomendasi passport dan pembuatan Visa untuk ke luar negri."
             }, {
-                "src": "/assets/home-slider/4. Gathering company - polos.jpg",
+                "src": "/assets/home/slider/4. Gathering company - polos.jpg",
                 "title": "GETHERING COMPANY",
                 "descTop": null,
                 "descMid": "Kami memiliki layanan perjalanan umrah, domestik tour dan muslim tour dalam bentuk grup dalam sistem kerjasama dengan perusahaan"
             }, {
-                "src": "/assets/home-slider/5. Tiket - polos.jpg",
+                "src": "/assets/home/slider/5. Tiket - polos.jpg",
                 "title": "TIKET PESAWAT & KERETA",
                 "descTop": null,
                 "descMid": "Kami memiliki layanan pemesanan tiket pesawat maupun kereta api dan beberapa hotel diberbagai destinasi yang berbeda."
@@ -115,23 +115,23 @@
                 "title": "Partner Kami"
             },
             "items": [{
-                "image": "/assets/partner/saudia-airlines-logo-png-in-2012-saudi-arabian-airlines-was-reverted-back-the-saudia-name-to-celebrate-the-airline-s-entry-to-the-skyteam-aliance.jpg"
+                "image": "/assets/home/partner/saudia-airlines-logo-png-in-2012-saudi-arabian-airlines-was-reverted-back-the-saudia-name-to-celebrate-the-airline-s-entry-to-the-skyteam-aliance.jpg"
             }, {
-                "image": "/assets/partner/Qatar_Airways_putih.jpg"
+                "image": "/assets/home/partner/Qatar_Airways_putih.jpg"
             }, {
-                "image": "/assets/partner/garuda indonesia.jpg"
+                "image": "/assets/home/partner/garuda indonesia.jpg"
             }, {
-                "image": "/assets/partner/01-1024x439.jpg"
+                "image": "/assets/home/partner/01-1024x439.jpg"
             }, {
-                "image": "/assets/partner/585e9ddbcb11b227491c34fc.png"
+                "image": "/assets/home/partner/585e9ddbcb11b227491c34fc.png"
             }, {
-                "image": "/assets/partner/etihad-airways-png-etihad-airways-951.png"
+                "image": "/assets/home/partner/etihad-airways-png-etihad-airways-951.png"
             }, {
-                "image": "/assets/partner/oman-air-logo-EBA5AADC48-seeklogo.com.png"
+                "image": "/assets/home/partner/oman-air-logo-EBA5AADC48-seeklogo.com.png"
             }, {
-                "image": "/assets/partner/IATA.jpg"
+                "image": "/assets/home/partner/IATA.jpg"
             }, {
-                "image": "/assets/partner/WhatsApp Image 2018-07-09 at 19.40.40.jpeg"
+                "image": "/assets/home/partner/WhatsApp Image 2018-07-09 at 19.40.40.jpeg"
             }]
         }
     },
@@ -141,7 +141,7 @@
         "title": "Perjalanan Umrah",
         "data": [{
             "caption": "Rombongan Semarang 17 Juni 2017",
-            "src": "/assets/home-slider/3. Visa - polos.jpg",
+            "src": "/assets/home/slider/3. Visa - polos.jpg",
             "srcSet": [
                 "/assets/gallery/Umrah/3 Juni 2018 Pusat (Ust. Ibsu)/WhatsApp Image 2018-06-03 at 13.12.42.jpeg",
                 "/assets/gallery/Umrah/3 Juni 2018 Pusat (Ust. Ibsu)/WhatsApp Image 2018-06-06 at 18.33.49.jpeg",
@@ -151,23 +151,23 @@
             ]
         }, {
             "caption": "Rombongan Semarang 17 Juni 2017",
-            "src": "/assets/home-slider/3. Visa - polos.jpg",
+            "src": "/assets/home/slider/3. Visa - polos.jpg",
             "srcSet": [
-                "/assets/home-slider/3. Visa - polos.jpg",
-                "/assets/home-slider/3. Visa - polos.jpg",
-                "/assets/home-slider/3. Visa - polos.jpg",
-                "/assets/home-slider/3. Visa - polos.jpg",
-                "/assets/home-slider/3. Visa - polos.jpg"
+                "/assets/home/slider/3. Visa - polos.jpg",
+                "/assets/home/slider/3. Visa - polos.jpg",
+                "/assets/home/slider/3. Visa - polos.jpg",
+                "/assets/home/slider/3. Visa - polos.jpg",
+                "/assets/home/slider/3. Visa - polos.jpg"
             ]
         }, {
             "caption": "Rombongan Semarang 17 Juni 2017",
-            "src": "/assets/home-slider/3. Visa - polos.jpg",
+            "src": "/assets/home/slider/3. Visa - polos.jpg",
             "srcSet": [
-                "/assets/home-slider/3. Visa - polos.jpg",
-                "/assets/home-slider/3. Visa - polos.jpg",
-                "/assets/home-slider/3. Visa - polos.jpg",
-                "/assets/home-slider/3. Visa - polos.jpg",
-                "/assets/home-slider/3. Visa - polos.jpg"
+                "/assets/home/slider/3. Visa - polos.jpg",
+                "/assets/home/slider/3. Visa - polos.jpg",
+                "/assets/home/slider/3. Visa - polos.jpg",
+                "/assets/home/slider/3. Visa - polos.jpg",
+                "/assets/home/slider/3. Visa - polos.jpg"
             ]
         }]
     }, {
@@ -175,63 +175,63 @@
         "title": "Muslim Tour",
         "data": [{
             "caption": "Rombongan Semarang 17 Juni 2017",
-            "src": "/assets/home-slider/3. Visa - polos.jpg",
+            "src": "/assets/home/slider/3. Visa - polos.jpg",
             "srcSet": [
-                "/assets/home-slider/3. Visa - polos.jpg",
-                "/assets/home-slider/3. Visa - polos.jpg",
-                "/assets/home-slider/3. Visa - polos.jpg",
-                "/assets/home-slider/3. Visa - polos.jpg",
-                "/assets/home-slider/3. Visa - polos.jpg"
+                "/assets/home/slider/3. Visa - polos.jpg",
+                "/assets/home/slider/3. Visa - polos.jpg",
+                "/assets/home/slider/3. Visa - polos.jpg",
+                "/assets/home/slider/3. Visa - polos.jpg",
+                "/assets/home/slider/3. Visa - polos.jpg"
             ]
         }, {
             "caption": "Rombongan Semarang 17 Juni 2017",
-            "src": "/assets/home-slider/3. Visa - polos.jpg",
+            "src": "/assets/home/slider/3. Visa - polos.jpg",
             "srcSet": [
-                "/assets/home-slider/3. Visa - polos.jpg",
-                "/assets/home-slider/3. Visa - polos.jpg",
-                "/assets/home-slider/3. Visa - polos.jpg",
-                "/assets/home-slider/3. Visa - polos.jpg",
-                "/assets/home-slider/3. Visa - polos.jpg"
+                "/assets/home/slider/3. Visa - polos.jpg",
+                "/assets/home/slider/3. Visa - polos.jpg",
+                "/assets/home/slider/3. Visa - polos.jpg",
+                "/assets/home/slider/3. Visa - polos.jpg",
+                "/assets/home/slider/3. Visa - polos.jpg"
             ]
         }, {
             "caption": "Rombongan Semarang 17 Juni 2017",
-            "src": "/assets/home-slider/3. Visa - polos.jpg",
+            "src": "/assets/home/slider/3. Visa - polos.jpg",
             "srcSet": [
-                "/assets/home-slider/3. Visa - polos.jpg",
-                "/assets/home-slider/3. Visa - polos.jpg",
-                "/assets/home-slider/3. Visa - polos.jpg",
-                "/assets/home-slider/3. Visa - polos.jpg",
-                "/assets/home-slider/3. Visa - polos.jpg"
+                "/assets/home/slider/3. Visa - polos.jpg",
+                "/assets/home/slider/3. Visa - polos.jpg",
+                "/assets/home/slider/3. Visa - polos.jpg",
+                "/assets/home/slider/3. Visa - polos.jpg",
+                "/assets/home/slider/3. Visa - polos.jpg"
             ]
         }, {
             "caption": "Rombongan Semarang 17 Juni 2017",
-            "src": "/assets/home-slider/3. Visa - polos.jpg",
+            "src": "/assets/home/slider/3. Visa - polos.jpg",
             "srcSet": [
-                "/assets/home-slider/3. Visa - polos.jpg",
-                "/assets/home-slider/3. Visa - polos.jpg",
-                "/assets/home-slider/3. Visa - polos.jpg",
-                "/assets/home-slider/3. Visa - polos.jpg",
-                "/assets/home-slider/3. Visa - polos.jpg"
+                "/assets/home/slider/3. Visa - polos.jpg",
+                "/assets/home/slider/3. Visa - polos.jpg",
+                "/assets/home/slider/3. Visa - polos.jpg",
+                "/assets/home/slider/3. Visa - polos.jpg",
+                "/assets/home/slider/3. Visa - polos.jpg"
             ]
         }, {
             "caption": "Rombongan Semarang 17 Juni 2017",
-            "src": "/assets/home-slider/3. Visa - polos.jpg",
+            "src": "/assets/home/slider/3. Visa - polos.jpg",
             "srcSet": [
-                "/assets/home-slider/3. Visa - polos.jpg",
-                "/assets/home-slider/3. Visa - polos.jpg",
-                "/assets/home-slider/3. Visa - polos.jpg",
-                "/assets/home-slider/3. Visa - polos.jpg",
-                "/assets/home-slider/3. Visa - polos.jpg"
+                "/assets/home/slider/3. Visa - polos.jpg",
+                "/assets/home/slider/3. Visa - polos.jpg",
+                "/assets/home/slider/3. Visa - polos.jpg",
+                "/assets/home/slider/3. Visa - polos.jpg",
+                "/assets/home/slider/3. Visa - polos.jpg"
             ]
         }, {
             "caption": "Rombongan Semarang 17 Juni 2017",
-            "src": "/assets/home-slider/3. Visa - polos.jpg",
+            "src": "/assets/home/slider/3. Visa - polos.jpg",
             "srcSet": [
-                "/assets/home-slider/3. Visa - polos.jpg",
-                "/assets/home-slider/3. Visa - polos.jpg",
-                "/assets/home-slider/3. Visa - polos.jpg",
-                "/assets/home-slider/3. Visa - polos.jpg",
-                "/assets/home-slider/3. Visa - polos.jpg"
+                "/assets/home/slider/3. Visa - polos.jpg",
+                "/assets/home/slider/3. Visa - polos.jpg",
+                "/assets/home/slider/3. Visa - polos.jpg",
+                "/assets/home/slider/3. Visa - polos.jpg",
+                "/assets/home/slider/3. Visa - polos.jpg"
             ]
         }]
     }, {
@@ -239,33 +239,33 @@
         "title": "Domestik Tour",
         "data": [{
             "caption": "Rombongan Semarang 17 Juni 2017",
-            "src": "/assets/home-slider/3. Visa - polos.jpg",
+            "src": "/assets/home/slider/3. Visa - polos.jpg",
             "srcSet": [
-                "/assets/home-slider/3. Visa - polos.jpg",
-                "/assets/home-slider/3. Visa - polos.jpg",
-                "/assets/home-slider/3. Visa - polos.jpg",
-                "/assets/home-slider/3. Visa - polos.jpg",
-                "/assets/home-slider/3. Visa - polos.jpg"
+                "/assets/home/slider/3. Visa - polos.jpg",
+                "/assets/home/slider/3. Visa - polos.jpg",
+                "/assets/home/slider/3. Visa - polos.jpg",
+                "/assets/home/slider/3. Visa - polos.jpg",
+                "/assets/home/slider/3. Visa - polos.jpg"
             ]
         }, {
             "caption": "Rombongan Semarang 17 Juni 2017",
-            "src": "/assets/home-slider/3. Visa - polos.jpg",
+            "src": "/assets/home/slider/3. Visa - polos.jpg",
             "srcSet": [
-                "/assets/home-slider/3. Visa - polos.jpg",
-                "/assets/home-slider/3. Visa - polos.jpg",
-                "/assets/home-slider/3. Visa - polos.jpg",
-                "/assets/home-slider/3. Visa - polos.jpg",
-                "/assets/home-slider/3. Visa - polos.jpg"
+                "/assets/home/slider/3. Visa - polos.jpg",
+                "/assets/home/slider/3. Visa - polos.jpg",
+                "/assets/home/slider/3. Visa - polos.jpg",
+                "/assets/home/slider/3. Visa - polos.jpg",
+                "/assets/home/slider/3. Visa - polos.jpg"
             ]
         }, {
             "caption": "Rombongan Semarang 17 Juni 2017",
-            "src": "/assets/home-slider/3. Visa - polos.jpg",
+            "src": "/assets/home/slider/3. Visa - polos.jpg",
             "srcSet": [
-                "/assets/home-slider/3. Visa - polos.jpg",
-                "/assets/home-slider/3. Visa - polos.jpg",
-                "/assets/home-slider/3. Visa - polos.jpg",
-                "/assets/home-slider/3. Visa - polos.jpg",
-                "/assets/home-slider/3. Visa - polos.jpg"
+                "/assets/home/slider/3. Visa - polos.jpg",
+                "/assets/home/slider/3. Visa - polos.jpg",
+                "/assets/home/slider/3. Visa - polos.jpg",
+                "/assets/home/slider/3. Visa - polos.jpg",
+                "/assets/home/slider/3. Visa - polos.jpg"
             ]
         }]
     }]

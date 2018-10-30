@@ -1,24 +1,26 @@
-import React, { Component } from 'react'
-import { NavLink, Switch, Route, Redirect } from 'react-router-dom';
-
-import NineDaysWith from './NineDaysWith';
-import NineDaysWithout from './NineDaysWithout';
+import React, {Component} from 'react';
+import { NavLink, Switch, Redirect, Route } from 'react-router-dom';
+import NineDaysDescription from './NineDaysDescription';
+import NineDaysItinerary from './NineDaysItinerary';
+import GroupTerm from './GroupTerm';
 
 export default class NineDays extends Component {
     render() {
         const { path } = this.props.match;
         return (
-            <div id="paketNineDays" className="tab-pane active" style={{margin: 'auto'}}>
+            <div id="paketNineDays" className="row tab-pane active">
                 <div className="col-lg-9 col-md-9 col-xs-12" style={{margin: 'auto'}}>
                     <nav className="nav nav-pills nav-justified">
-                        <NavLink to={`${path}/with_2x_shalat`} className="nav-item nav-link small-text">PAKET UMRAH REGULAR 9 HARI 2X SHALAT JUMAT</NavLink>
-                        <NavLink to={`${path}/without_2x_shalat`} className="nav-item nav-link small-text">PAKET UMRAH REGULAR 9 HARI TANPA 2X SHALAT JUMAT</NavLink>
+                        <NavLink className="nav-item nav-link sec-style" to={`${path}/description`}>Deskripsi</NavLink>
+                        <NavLink className="nav-item nav-link sec-style" to={`${path}/itinerary`}>Itinerary</NavLink>
+                        <NavLink className="nav-item nav-link sec-style" to={`${path}/term`}>Syarat & Ketentuan</NavLink>
                     </nav>
-                    <div className="tab-content row">
+                    <div className="tab-content">
                         <Switch>
-                            <Redirect exact from={path} to={`${path}/with_2x_shalat`}/>
-                            <Route path={`${path}/with_2x_shalat`} component={NineDaysWith}/>
-                            <Route path={`${path}/without_2x_shalat`} component={NineDaysWithout}/> 
+                            <Redirect from={path} to={`${path}/description`} exact/>
+                            <Route exact path={`${path}/description`} component={NineDaysDescription}/>
+                            <Route exact path={`${path}/itinerary`} component={NineDaysItinerary}/>
+                            <Route exact path={`${path}/term`} component={GroupTerm}/>
                         </Switch>
                     </div>
                 </div>

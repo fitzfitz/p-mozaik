@@ -44,7 +44,8 @@ export default class ProductCarousel extends Component {
                 onExited={this.onExited}
                 key={item.id}
                 >
-                    <img className="d-block w-100" src={item.src} alt="" />
+                    <div className="image-carousel-div" style={{backgroundImage: `url('${item.src}')`}}></div>
+                    {/* <img className="d-block w-100" src={item.src} alt="" /> */}
                     <div className="carousel-caption d-none d-md-block">
                         <div className="slider-desciption-o">
                             {item.descTop != null && <span className="product-carousel-desc-top">{item.descTop}</span>}

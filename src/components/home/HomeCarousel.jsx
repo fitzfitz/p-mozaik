@@ -44,7 +44,8 @@ export default class HomeCarousel extends Component {
                 onExited={this.onExited}
                 key={key}
                 >
-                    <img className="d-block w-100" src={item.src} alt={item.altText} />
+                    <div className="image-carousel-div" style={{backgroundImage: `url('${item.src}')`}}></div>
+                    {/* <img className="d-block w-100" src={item.src} alt={item.altText} /> */}
                     <div className="carousel-caption d-none d-md-block">
                         <div className="slider-desciption">
                             {item.descTop != null && <span className="product-carousel-desc-top">{item.descTop}</span>}

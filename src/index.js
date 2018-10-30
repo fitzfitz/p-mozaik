@@ -8,12 +8,12 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import '@fortawesome/react-fontawesome';
-import { faPhone } from '@fortawesome/free-solid-svg-icons';
+import { faPhone, faCheck } from '@fortawesome/free-solid-svg-icons';
 import { faFacebookSquare, faTwitterSquare, faInstagram } from '@fortawesome/free-brands-svg-icons';
 
 
 
-library.add( faPhone, faFacebookSquare, faTwitterSquare, faInstagram );
+library.add( faCheck, faPhone, faFacebookSquare, faTwitterSquare, faInstagram );
 ReactDOM.render((
     <BrowserRouter>
         <App />

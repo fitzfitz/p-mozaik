@@ -16,18 +16,18 @@ export default class GalleryDetail extends Component {
             isOpen: false,
         }
     }
-    // componentWillMount() {
-    //     fetch('/data/data.json').then(res => res.json())
-    //         .then(res => {
-	// 			const is = p => p.id_category === this.props.match.params.idCategory;
-    //             this.setState({
-    //                 isLoading: false, 
-    //                 isLoaded: true,
-    //                 title: res.Gallery.find(is).title,
-    //                 articles: res.Gallery.find(is).data
-    //             })
-    //         })
-    // }
+    componentWillMount() {
+        fetch('/data/data.json').then(res => res.json())
+            .then(res => {
+				const is = p => p.id_category === this.props.match.params.idCategory;
+                this.setState({
+                    isLoading: false, 
+                    isLoaded: true,
+                    title: res.Gallery.find(is).title,
+                    articles: res.Gallery.find(is).data
+                })
+            })
+    }
     componentWillReceiveProps(newProps) {
         fetch('/data/data.json').then(res => res.json())
             .then(res => {

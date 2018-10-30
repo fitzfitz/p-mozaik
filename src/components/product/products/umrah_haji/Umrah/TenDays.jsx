@@ -8,7 +8,7 @@ export default class TenDays extends Component {
     render() {
         const { path } = this.props.match;
         return (
-            <div id="paketTenDays" className="tab-pane active">
+            <div id="paketTenDays" className="row tab-pane active">
                 <div className="col-lg-9 col-md-9 col-xs-12" style={{margin: 'auto'}}>
                     <nav className="nav nav-pills nav-justified">
                         <NavLink className="nav-item nav-link sec-style" to={`${path}/description`}>Deskripsi</NavLink>
