@@ -25,6 +25,9 @@ hr {
     top: 0;
     bottom: 0;
     padding: 2rem;
+    @media screen and (max-width: 1024px) {
+        padding: 1rem;
+    }
     width: 100%;
     text-align: center;
     display: flex;
@@ -33,6 +36,9 @@ hr {
 }
 #paketUmrah .card-wrap .card-body .card-text {
     font-size: 1.6rem;
+    @media screen and (max-width: 1024px) {
+        font-size: .8rem;
+    }
 }
 #paketUmrah a.head {
     background: transparent;
@@ -88,4 +94,14 @@ table.fitz-style {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+}
+.responsive-card-batch-right {
+    position: absolute;
+    bottom: 0;
+    background: #d80000;
+    color: #fff;
+    right: 0;
+    padding: 5px 10px;
+    font-size: 25px;
+    font-weight: 600;
 }

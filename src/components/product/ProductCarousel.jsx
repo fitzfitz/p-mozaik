@@ -53,9 +53,9 @@ export default class ProductCarousel extends Component {
                         <div className="slider-desciption">
                             {item.title != null && <span className="product-carousel-title">{item.title}</span>}
                             {item.descMid != null && <span className="product-carousel-desc-middle">{item.descMid}</span>}
+                            <button type="button" className="btn btn-outline-secondary slide-btn">Hubungi Kami<br/><strong>+62 21 8313444</strong></button>
                         </div>
                     </div>
-                    <button type="button" className="btn btn-outline-secondary slide-btn">Hubungi Kami<br/><strong>+62 21 8313444</strong></button>
                 </CarouselItem>
             );
         });

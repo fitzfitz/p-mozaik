@@ -10,13 +10,13 @@ export default class Footer extends Component {
                 <div className="container">
                     <div className="row justify-content-center align-items-center">
                         <div className="mb-2">
-                            <a target="_blank" rel="noopener noreferrer" href="https://facebook.com/pesonamozaik" className="fb-ic">
+                            <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/pesonamozaiktourandtravel/" className="fb-ic">
                                 <FontAwesomeIcon icon={['fab', 'facebook-square']} className="fa-lg white-text mr-md-2 ml-md-2 mr-3 fa-3x" />
                             </a>
                             <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/pesonamozaik" className="tw-ic">
                                 <FontAwesomeIcon icon={['fab', 'twitter-square']} className="fa-lg white-text mr-md-2 ml-md-2 mr-3 fa-3x" />
                             </a>
-                            <a target="_blank" rel="noopener noreferrer" href="https://instagram.com/pesonamozaik" className="ins-ic">
+                            <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/pesona.mozaik/" className="ins-ic">
                                 <FontAwesomeIcon icon={['fab', 'instagram']} className="fa-lg white-text mr-md-2 ml-md-2 mr-3 fa-3x" />
                             </a>
                         </div>

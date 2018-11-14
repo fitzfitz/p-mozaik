@@ -36,7 +36,11 @@ export default class Umrah extends Component {
                     <div className="tab-content">
                         <Switch>
                             {/* <Redirect from={path} to={`${path}/group`} exact/> */}
-                            <Route path={`${path}`} exact render={()=><div className="text-center pl-3 pr-3">Untuk paket umrah, kami tersedia dalam 3 paket, yaitu Paket Group, Paket 10 Hari dan Paket 9 Hari. Selain itu kami juga menyediakan paket promo, paket milad dan paket umrah plus pada musim tertentu.</div>}/>
+                            <Route path={`${path}`} exact render={()=>
+                                <div className="text-center"><div className="pl-3 pr-3">Untuk paket umrah, kami tersedia dalam 3 paket, yaitu Paket Group, Paket 10 Hari dan Paket 9 Hari. Selain itu kami juga menyediakan paket promo, paket milad dan paket umrah plus pada musim tertentu.</div><br/>
+                                <a href="/assets/product/download/New brosur Jan - Mar 2019 - 4.pdf" target="_blank">Download Brosur Paket Umrah Mozaik Periode Oktober/Desember 2018 dan Januari/Maret 2019</a>
+                                </div>
+                            }/>
                             <Route path={`${path}/group`} component={Group}/>
                             <Route path={`${path}/ten_days`} component={TenDays}/>
                             <Route path={`${path}/nine_days`} component={NineDays}/>

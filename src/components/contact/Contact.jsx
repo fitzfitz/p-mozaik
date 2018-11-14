@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import LoadSpinner from '../other/LoadSpinner';
-import './Contact.scss'
+import './Contact.scss';
+
+const contact = 'http://www.mozaik.cucudukun.net/send_email';
 
 export default class Contact extends Component {
     constructor(props) {
@@ -50,8 +52,9 @@ export default class Contact extends Component {
         formData.append('keberangkatan', this.state.keberangkatan);
         formData.append('kepulangan', this.state.kepulangan);
         formData.append('note', this.state.note);
-        fetch('/send_email', {
+        fetch(contact, {
             method: 'POST',
+            mode: 'no-cors',
             body: formData
         })
         .then(res => res.json())
@@ -60,13 +63,13 @@ export default class Contact extends Component {
             console.log(resp)
         })
         .catch(err => {
-            this.setState({isLoading: false})
+            this.setState({isLoading: false, isSuccess: true})
             console.log(err)
         })
     }
     render() {
         return (
-            <div className="content-wrap">
+            <div className="content-wrap" style={{ overflow: 'hidden' }}>
                 <div className="container-fluid">
                     <div className="row">
                         <div className="embed-responsive embed-responsive-21by9" style={{margin: 0}}>
@@ -75,7 +78,7 @@ export default class Contact extends Component {
                     </div>    
                 </div>
                 <div className="container bg-white home-section pt-0">
-                    <div className="row">
+                    <div className="">
                         <h1 className="big-title text-white bg-blue mb-5 pt-4 pb-4 col-sm-12">Request Paket Perjalanan</h1>
                         <div className="container">
                             <form onSubmit={this.submitForm}>
@@ -130,9 +133,13 @@ export default class Contact extends Component {
                                             <div className="col-sm-9">
                                                 <select className="form-control" onChange={this.handleChange} id="packages" required>
                                                     <option value=""></option>
-                                                    <option value="Paket Group">Paket Group</option>
-                                                    <option value="Paket 10 hari">Paket 10 hari</option>
-                                                    <option value="Paket 9 Hari">Paket 9 Hari</option>
+                                                    <option value="Paket Umroh 9 Hari">Paket Umroh 9 Hari</option>
+                                                    <option value="Paket Umroh 9 Hari (2x Sholat Jum'at)">Paket Umroh 9 Hari (2x Sholat Jum'at)</option>
+                                                    <option value="Paket Umroh 10 hari">Paket Umroh 10 hari</option>
+                                                    <option value="Paket Umroh 10 Hari (2x Sholat Jum'at)">Paket Umroh 10 Hari (2x Sholat Jum'at)</option>
+                                                    <option value="Paket Umroh + City Tour Dubai">Paket Umroh + City Tour Dubai</option>
+                                                    <option value="Paket Umroh + Turki">Paket Umroh + Turki</option>
+                                                    <option value="Paket Umroh + Aqsa">Paket Umroh + Aqsa</option>
                                                 </select>
                                             </div>
                                         </div>
@@ -162,7 +169,7 @@ export default class Contact extends Component {
                                     ) : (
                                         this.state.isSuccess ? (
                                             <div className="col-sm-12 row justify-content-center">
-                                                <LoadSpinner type="success" className="form-control text-white text-center mb-4" />
+                                                <LoadSpinner type="success" className="text-white text-center mb-4" />
                                             </div>
                                         ) : (
                                             <button type="submit" className="form-control big-title text-white bg-blue mb-4 pt-4 pb-4 col-sm-12">Submit Request</button>

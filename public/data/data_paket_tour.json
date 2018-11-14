@@ -7,21 +7,21 @@
         "slug": "turki",
         "name": "Turki",
         "description": "Istanbul - Cappadocia - Ankara",
-        "price": 18000000,
+        "price": "18.000.000",
         "time": "10H8N",
         "image": "/assets/product/tour/eropa/Turki.png"
     }, {
         "slug": "belanda",
         "name": "Belanda",
         "description": "Amsterdam - Koninklijk Paleis - Van Oranga",
-        "price": 28000000,
+        "price": "28.000.000",
         "time": "8H6N",
         "image": "/assets/product/tour/eropa/Belanda.jpg"
     }, {
         "slug": "perancis",
         "name": "Perancis",
         "description": "Paris - Eiffel Tower - Manekken Pis",
-        "price": 30000000,
+        "price": "30.000.000",
         "time": "8H6N",
         "image": "/assets/product/tour/eropa/Perancis.jpg"
     }]

@@ -39,7 +39,16 @@ export default class TourDetails extends Component {
                         <div className="col-sm-4">
                             {this.state.product.images.map((item, key) => {
                                 return (
-                                    <img key={key} src={item.image} className="col-sm-12 pb-2" alt="" />
+                                    key === 0 ? (
+                                        <div className="col-sm-12 pb-2" key={key}>
+                                            <div style={{ position: 'relative' }}>
+                                                <div className="responsive-card-batch-right">{this.state.product.time}</div>
+                                                <img src={item.image} width="100%" alt="" />
+                                            </div>
+                                        </div>
+                                    ) : (
+                                        <img key={key} src={item.image} className="col-sm-12 pb-2" alt="" />
+                                    )
                                 )
                             })}
                         </div>
@@ -68,7 +77,7 @@ export default class TourDetails extends Component {
                                         <article>
                                             <img className="img-fluid float-left mr-2" width={35} src={moneyIcon} alt="" />
                                             <h6 className="font-weight-bold">Rp. {this.state.product.price},- / 15 pax</h6>
-                                            *Harga dapat berubah sewaktu-waktu tanpa pemberitahuan sebelumnya
+                                            <p className="text-red">*Harga dapat berubah sewaktu-waktu tanpa pemberitahuan sebelumnya</p>
                                         </article>
                                         <br/>
                                         <p className="font-weight-bold">Lokasi Tujuan :</p>

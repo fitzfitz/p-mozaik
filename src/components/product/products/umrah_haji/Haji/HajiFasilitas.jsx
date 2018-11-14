@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Card, CardImg, CardTitle, CardText, CardGroup, CardBody } from 'reactstrap'
+import { Card, CardTitle, CardText, CardGroup, CardBody } from 'reactstrap'
 // import { NavLink } from 'react-router-dom';
 export default class HajiFasilitas extends Component {
     render() {
@@ -42,30 +42,30 @@ export default class HajiFasilitas extends Component {
                     </CardBody>
                 </div>
                 <div className="container-fluid">
-                    <div className="row">
-                    <div className="row">
-                        <Card className="col-md-4 text-center text-white no-border">
-                            <CardImg top width="100%" src="/assets/product/haji/pesawat.jpg" alt="Card image cap" />
-                            <CardBody className="bg-red" style={{ display: 'block' }}>
-                                <CardTitle>Pesawat</CardTitle>
-                                <CardText>Saudia Airlines (Landing Jeddah)</CardText>
-                            </CardBody>
-                        </Card>
-                        <Card className="col-md-4 text-center text-white no-border">
-                            <CardImg top width="100%" src="/assets/product/haji/bus.jpg" alt="Card image cap" />
-                            <CardBody className="bg-red" style={{ display: 'block' }}>
-                                <CardTitle>Transportasi Darat</CardTitle>
-                                <CardText>Bus AC Faruk Jamil Khoger</CardText>
-                            </CardBody>
-                        </Card>
-                        <Card className="col-md-4 text-center text-white no-border">
-                            <CardImg top width="100%" src="/assets/product/haji/mina.jpg" alt="Card image cap" />
-                            <CardBody className="bg-red" style={{ display: 'block' }}>
-                                <CardTitle>Mina-Arafah</CardTitle>
-                                <CardText>Maktab VVIP 112</CardText>
-                            </CardBody>
-                        </Card>
-                    </div>
+                    <div style={{ margin: '0 -15px' }}>
+                        <div className="row">
+                            <Card className="col-md-4 text-center text-white no-border">
+                                <div className="responsive-card-img-group" style={{backgroundImage: 'url("/assets/product/haji/pesawat.jpg")'}}></div>
+                                <CardBody className="bg-red" style={{ display: 'block' }}>
+                                    <CardTitle>Pesawat</CardTitle>
+                                    <CardText>Saudia Airlines (Landing Jeddah)</CardText>
+                                </CardBody>
+                            </Card>
+                            <Card className="col-md-4 text-center text-white no-border">
+                                <div className="responsive-card-img-group" style={{backgroundImage: 'url("/assets/product/haji/bus.jpg")'}}></div>
+                                <CardBody className="bg-red" style={{ display: 'block' }}>
+                                    <CardTitle>Transportasi Darat</CardTitle>
+                                    <CardText>Bus AC Faruk Jamil Khoger</CardText>
+                                </CardBody>
+                            </Card>
+                            <Card className="col-md-4 text-center text-white no-border">
+                                <div className="responsive-card-img-group" style={{backgroundImage: 'url("/assets/product/haji/mina.jpg")'}}></div>
+                                <CardBody className="bg-red" style={{ display: 'block' }}>
+                                    <CardTitle>Mina-Arafah</CardTitle>
+                                    <CardText>Maktab VVIP 112</CardText>
+                                </CardBody>
+                            </Card>
+                        </div>
                     </div>
                 </div>
             </div>

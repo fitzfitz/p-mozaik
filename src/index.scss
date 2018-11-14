@@ -41,6 +41,9 @@ article {
 .big-title {
   font-weight: bold;
   font-size: 1.6rem;
+  @media screen and (max-width: 1024px) {
+    font-size: 1rem;
+  }
   color: #47525e;
   text-align: center;
   padding: 10px 10px;
@@ -57,6 +60,9 @@ a, .text-blue {
 }
 .text-white {
   color: #fff;
+}
+.text-red {
+  color: #e00;
 }
 .bg-white {
   background: #fff !important;
@@ -153,6 +159,9 @@ a, .text-blue {
   background-color: #2c3280;
   border-radius: 0;
   font-size: 1.7em;
+  @media screen and (max-width: 1024px) {
+    font-size: .9em;
+  }
   font-weight: 900;
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -161,6 +170,9 @@ a, .text-blue {
     background-color: #ebebeb;
     border-radius: 0;
     font-size: 1em;
+    @media screen and (max-width: 1024px) {
+      font-size: .9em;
+    }
     font-weight: 900;
     padding: 0.6rem 0;
     &.active, &:hover {

@@ -1,10 +1,6 @@
 .fitz-list-wrap {
-    &:after {
-        display: table;
-        clear: both
-    }
+    column-count: 2;
     .fitz-list {
-        width: 50%;
-        float: left;
+        break-inside: avoid;
     }
 }

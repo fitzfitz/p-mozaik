@@ -24,14 +24,16 @@ export default class TourList extends Component {
             return (
                 <NavLink key={key} className="col-sm-4" to={`../detail/${item.slug}`}>
                     <Card>
-                        <div className="responsive-card-img-group" style={{backgroundImage: `url('${item.image}')`}}></div>
-                        {/* <CardImg top width="100%" src={item.image} alt={item.title} /> */}
+                        <div style={{ position: 'relative' }}>
+                            <div className="responsive-card-img-group" style={{backgroundImage: `url('${item.image}')`}}></div>
+                            <div className="responsive-card-batch-right">{item.time}</div>
+                        </div>
                         <CardBody className="p-2">
                             <h6 className="card-title">{item.name}</h6>
                             <p className="card-title">{item.description}</p>
                             <div className="card-text">
                                 <p>Rp. {item.price},- / min. 15 pax</p>
-                                <p>*Harga sewaktu-waktu dapat berubah tanpa pemberitahuan sebelumnya</p>
+                                <p className="text-red">*Harga sewaktu-waktu dapat berubah tanpa pemberitahuan sebelumnya</p>
                             </div>
                         </CardBody>
                     </Card>
